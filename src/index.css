@@ -1,11 +1,14 @@
 :root {
-  --ink: #1e2a26;
-  --ink-soft: #3a4842;
-  --mist: #dfe4df;
-  --fog: #eef1ec;
-  --paper: #f5f3ee;
-  --sage: #4f6b5e;
-  --sage-deep: #3a5348;
+  --ink: #241f2e;
+  --ink-soft: #4a4356;
+  /* Taramaların kâğıt dokusu lila tonlu — arşiv zemini de o tarafta durur */
+  --mist: #e2dde8;
+  --fog: #f1eff4;
+  --paper: #f7f5fa;
+  --accent: #6d5f8c;
+  --accent-deep: #52456e;
+  --glow-start: #ebe6f2;
+  --glow-end: #ded7e9;
   --line: color-mix(in srgb, var(--ink) 12%, transparent);
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
 
@@ -18,6 +21,20 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.dark {
+  color-scheme: dark;
+  --ink: #fff;
+  --ink-soft: #d8d5dc;
+  --mist: #202024;
+  --fog: #151518;
+  --paper: #29282d;
+  --accent: #b8a9d4;
+  --accent-deep: #776795;
+  --glow-start: #2b2830;
+  --glow-end: #222027;
+  --line: rgb(255 255 255 / 0.14);
 }
 
 *,
@@ -35,10 +52,14 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background:
-    radial-gradient(120% 80% at 10% -10%, #e4ebe3 0%, transparent 55%),
-    radial-gradient(90% 70% at 100% 0%, #d7e0d8 0%, transparent 50%),
+    radial-gradient(120% 80% at 10% -10%, var(--glow-start) 0%, transparent 55%),
+    radial-gradient(90% 70% at 100% 0%, var(--glow-end) 0%, transparent 50%),
     linear-gradient(180deg, var(--fog) 0%, var(--mist) 100%);
   background-attachment: fixed;
+  color: var(--ink);
+  transition:
+    color 0.25s ease,
+    background-color 0.25s ease;
 }
 
 #root {

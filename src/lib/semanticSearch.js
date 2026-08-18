@@ -1,10 +1,143 @@
 import { weeks } from '../data/weeks'
+import visualIndex from '../data/visual-index.json'
+import { expandSearchTokens } from '../data/bilingualAliases'
 
 /** Çok dilli CLIP — TR/EN metin ↔ haftalık scan aynı uzayda */
 const MODEL_ID = 'jinaai/jina-clip-v1'
 const IMAGE_PROCESSOR_ID = 'Xenova/clip-vit-base-patch32'
-const CACHE_NAME = 'metis-clip-weeks-v3'
-const DEFAULT_LIMIT = 4
+const CACHE_NAME = 'metis-clip-weeks-v4'
+/** Ajanda sketch’lerinde skorlar dar aralıkta; top-k ile çeşitlilik korunur */
+const DEFAULT_LIMIT = 12
+/** Hubness sadece hafif kırıcı — yüksek değer hep aynı “temiz” sayfaları öne çıkarıyordu */
+const HUBNESS_WEIGHT = 0.18
+/** En iyi skorun bu kadar altındakiler elenir (ham cosine) */
+const RAW_GAP = 0.055
+const MIN_RESULTS = 6
+const INDEX_LIMIT = 12
+const STRONG_INDEX_SCORE = 0.72
+/** Kök eşleşmesi için asgari uzunluk — daha kısası hece gürültüsü üretiyor */
+const STEM_MIN_LENGTH = 5
+
+const INDEX_FIELDS = [
+  ['animals', 1],
+  ['objects', 1],
+  ['people', 0.95],
+  ['searchTerms', 0.95],
+  ['moods', 0.88],
+  ['themes', 0.88],
+  ['visibleText', 0.82],
+  ['colors', 0.72],
+  ['visualStyle', 0.68],
+  ['summary', 0.62],
+]
+
+const weekById = new Map(weeks.map((week) => [week.id, week]))
+
+function normalizeText(value) {
+  return String(value)
+    .toLocaleLowerCase('tr-TR')
+    .replaceAll('ı', 'i')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^\p{L}\p{N}]+/gu, ' ')
+    .trim()
+}
+
+function asTextList(value) {
+  if (Array.isArray(value)) return value
+  return value ? [value] : []
+}
+
+function textMatchScore(value, normalizedQuery, queryTokens) {
+  const text = normalizeText(value)
+  if (!text) return 0
+  if (text === normalizedQuery) return 1
+
+  const padded = ` ${text} `
+  if (padded.includes(` ${normalizedQuery} `)) return 0.96
+  if (normalizedQuery.length >= 4 && text.includes(normalizedQuery)) return 0.88
+
+  const textTokens = [...new Set(text.split(' '))]
+  const matched = queryTokens.filter(
+    (token) =>
+      textTokens.includes(token) ||
+      // Yalnızca çekim eki farkı: "mantar" ↔ "mantarlar".
+      // Kısa parçalara izin verilirse "akla-ma" gibi hece kırıntıları "mantar"a eşleşiyor.
+      (token.length >= STEM_MIN_LENGTH &&
+        textTokens.some(
+          (candidate) =>
+            candidate.length >= STEM_MIN_LENGTH &&
+            (candidate.startsWith(token) || token.startsWith(candidate)),
+        )),
+  ).length
+
+  if (matched === 0) return 0
+  const coverage = matched / queryTokens.length
+  return coverage === 1 ? 0.82 : 0.58 * coverage
+}
+
+function scoreIndexEntry(entry, query) {
+  const normalizedQuery = normalizeText(query)
+  const queryTokens = normalizedQuery.split(' ').filter((token) => token.length > 1)
+  if (!normalizedQuery || queryTokens.length === 0) return null
+
+  // "cat" → kedi, "mushroom" → mantar — indeks TR ağırlıklı olduğu için sorguyu genişlet
+  const expandedTokens = expandSearchTokens(queryTokens)
+  const queryVariants = [
+    ...new Set([
+      normalizedQuery,
+      ...expandedTokens.filter((token) => token !== normalizedQuery),
+    ]),
+  ]
+
+  let best = 0
+  let corroboration = 0
+  const matchedFields = []
+
+  for (const [field, weight] of INDEX_FIELDS) {
+    const fieldScore = Math.max(
+      0,
+      ...asTextList(entry[field]).flatMap((value) =>
+        queryVariants.map((variant) =>
+          textMatchScore(
+            value,
+            variant,
+            variant.includes(' ')
+              ? variant.split(' ').filter((token) => token.length > 1)
+              : expandedTokens,
+          ),
+        ),
+      ),
+    )
+    if (fieldScore <= 0) continue
+
+    matchedFields.push(field)
+    corroboration += 1
+    best = Math.max(best, fieldScore * weight)
+  }
+
+  if (best === 0) return null
+  return {
+    score: Math.min(1, best + Math.min(corroboration - 1, 3) * 0.035),
+    matchedFields,
+  }
+}
+
+/**
+ * Ollama'nın önceden ürettiği statik JSON indeksinde anında arama.
+ * Canlı sitede model veya sunucu gerektirmez.
+ */
+export function searchIndexWeeks(query, { limit = INDEX_LIMIT } = {}) {
+  return Object.values(visualIndex.entries)
+    .map((entry) => {
+      const match = scoreIndexEntry(entry, query)
+      const week = weekById.get(entry.weekId)
+      return match && week ? { week, score: match.score, source: 'index' } : null
+    })
+    .filter(Boolean)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+}
 
 /** Yoğun/karmaşık sayfaların her sorguda öne çıkmasını ölçmek için nötr probe’lar */
 const HUBNESS_PROBES = [
@@ -23,6 +156,7 @@ const TILE_ROWS = 3
 
 let modelsPromise = null
 let catalogPromise = null
+let probePromise = null
 
 function cosineSimilarity(a, b) {
   let dot = 0
@@ -205,8 +339,13 @@ async function embedCanvas(canvas) {
   return tensorToVectors(image_embeds)[0]
 }
 
+/** Karolar 256-384 px'e indiği için thumbnail yeterli; ham PNG'i decode etmek gereksiz yavaş */
+function sourceFor(week) {
+  return week.thumb ?? week.image
+}
+
 function cacheKey(week) {
-  return `${MODEL_ID}::tiles2x3::${week.id}::${week.image}`
+  return `${MODEL_ID}::tiles2x3::${week.id}::${sourceFor(week)}`
 }
 
 function bestSim(queryVectors, embeddings) {
@@ -230,26 +369,29 @@ async function embedWeek(week, onProgress) {
     }
   }
 
-  const img = await loadSourceImage(week.image)
+  const img = await loadSourceImage(sourceFor(week))
   const views = buildViewCanvases(img)
   const embeddings = []
 
   for (let i = 0; i < views.length; i += 1) {
     onProgress?.({
-      stage: 'images',
+      stage: 'tiles',
       message: `${week.label}: karo ${i + 1}/${views.length}`,
+      weekLabel: week.label,
+      current: i + 1,
+      total: views.length,
     })
     embeddings.push(await embedCanvas(views[i].canvas))
   }
 
   // Hubness: bu sayfa “her şeye” ne kadar benzer? (karmaşık doodle cezası)
-  const probeVectors = await embedTexts(HUBNESS_PROBES)
-  const hubness = bestSim(probeVectors, embeddings)
+  if (!probePromise) probePromise = embedTexts(HUBNESS_PROBES)
+  const hubness = bestSim(await probePromise, embeddings)
 
   await cacheSet(key, {
     embeddings: embeddings.map((e) => Array.from(e)),
     hubness,
-    image: week.image,
+    image: sourceFor(week),
   })
 
   return { embeddings, hubness }
@@ -270,7 +412,7 @@ async function getCatalog(onProgress) {
       for (let i = 0; i < weeks.length; i += 1) {
         const week = weeks[i]
         onProgress?.({
-          stage: 'images',
+          stage: 'scans',
           message: `Scan’ler vektörleniyor… (${i + 1}/${total})`,
           current: i + 1,
           total,
@@ -297,10 +439,11 @@ export async function warmSemanticSearch(onProgress) {
 /**
  * Metin → haftalık scan CLIP araması.
  * - Karo (tile) max: küçük çizimleri bulur
- * - Göreli hubness: ortalamanın üstündeki “her şeye benzer” sayfaları cezalandırır
+ * - Hafif hubness: karmaşık sayfaları biraz cezalandırır, sıralamayı ele geçirmez
+ * - Top-k + skor bandı: her sorguda aynı 4 “favori” sayfayı dayatmaz
  * @returns {Promise<{ week: object, score: number }[]>}
  */
-export async function searchWeeks(query, { limit = DEFAULT_LIMIT } = {}) {
+async function searchClipWeeks(query, { limit = DEFAULT_LIMIT } = {}) {
   const trimmed = query.trim()
   if (!trimmed) return []
 
@@ -313,36 +456,75 @@ export async function searchWeeks(query, { limit = DEFAULT_LIMIT } = {}) {
   const scored = catalog
     .map(({ week, embeddings, hubness }) => {
       const raw = bestSim(queryVectors, embeddings)
-      // Sadece ortalamadan daha “hub” olanları cezalandır (hafif)
-      const adjusted = raw - 0.65 * (hubness - meanHub)
+      const adjusted = raw - HUBNESS_WEIGHT * (hubness - meanHub)
       return { week, raw, adjusted }
     })
-    .sort((a, b) => b.adjusted - a.adjusted)
+    .sort((a, b) => {
+      // Önce ham benzerlik; hubness yalnızca yakın skorları ayırır
+      if (Math.abs(b.raw - a.raw) > 0.012) return b.raw - a.raw
+      return b.adjusted - a.adjusted
+    })
 
   if (scored.length === 0) return []
 
-  const topAdj = scored[0].adjusted
-  const meanAdj = scored.reduce((sum, item) => sum + item.adjusted, 0) / scored.length
-
-  // Soft filtre: en iyinin yakını + ortalamanın üstü; asla boş dönme
-  let relevant = scored.filter(
-    (item) => item.adjusted >= topAdj - 0.035 && item.adjusted >= meanAdj - 0.01,
-  )
-
-  if (relevant.length === 0) {
-    relevant = scored.slice(0, Math.min(3, scored.length))
-  }
-
-  // Tek sonuç çok baskınsa sadece onu göster
-  const second = relevant[1]
-  if (second && topAdj - second.adjusted > 0.045) {
-    relevant = relevant.slice(0, 1)
-  }
-
-  const span = Math.max(topAdj - (relevant[relevant.length - 1]?.adjusted ?? topAdj) + 0.02, 0.02)
+  const topRaw = scored[0].raw
+  const band = scored.filter((item) => item.raw >= topRaw - RAW_GAP)
+  const relevant =
+    band.length >= MIN_RESULTS ? band : scored.slice(0, Math.min(MIN_RESULTS, scored.length))
 
   return relevant.slice(0, limit).map((item) => ({
     week: item.week,
-    score: Math.max(0.15, Math.min(1, 0.35 + 0.65 * ((item.adjusted - (topAdj - span)) / span))),
+    // Yüzde: bu sorgudaki en iyi ham skora göre (1. hep ~%100, diğerleri orantılı)
+    // Mutlak CLIP skoru doodle’da düşük olduğu için “güven” iddiası yok
+    score: topRaw > 0 ? Math.max(0.05, Math.min(1, item.raw / topRaw)) : 0,
+    source: 'clip',
   }))
+}
+
+/**
+ * Hibrit sıralama: hazır vision indeksi ana sinyal, CLIP destek sinyali.
+ * Bu fonksiyon yalnızca indeks tek başına yeterli olmadığında çağrılmalı.
+ */
+export async function searchWeeks(query, { limit = DEFAULT_LIMIT } = {}) {
+  const [indexResults, clipResults] = await Promise.all([
+    Promise.resolve(searchIndexWeeks(query, { limit: INDEX_LIMIT })),
+    searchClipWeeks(query, { limit: INDEX_LIMIT }),
+  ])
+
+  const combined = new Map()
+  for (const result of clipResults) {
+    combined.set(result.week.id, {
+      week: result.week,
+      indexScore: 0,
+      clipScore: result.score,
+    })
+  }
+  for (const result of indexResults) {
+    const current = combined.get(result.week.id) ?? {
+      week: result.week,
+      indexScore: 0,
+      clipScore: 0,
+    }
+    current.indexScore = result.score
+    combined.set(result.week.id, current)
+  }
+
+  return [...combined.values()]
+    .map(({ week, indexScore, clipScore }) => {
+      const hasIndexMatch = indexScore > 0
+      return {
+        week,
+        score: hasIndexMatch
+          ? Math.min(1, 0.82 * indexScore + 0.18 * clipScore)
+          : 0.55 * clipScore,
+        source: hasIndexMatch ? 'hybrid' : 'clip',
+      }
+    })
+    .sort((a, b) => b.score - a.score)
+    .filter((item, index) => item.score >= 0.28 || index < MIN_RESULTS)
+    .slice(0, limit)
+}
+
+export function hasStrongIndexMatch(results) {
+  return (results[0]?.score ?? 0) >= STRONG_INDEX_SCORE
 }

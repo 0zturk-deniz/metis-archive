@@ -1,49 +1,27 @@
-/** Haftalık ajanda taramaları — en yeni hafta listenin başında.
- * CLIP doğrudan bu görseller üzerinde arar.
+import { years as archiveYears } from './archive'
+
+const assetUrl = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`
+
+export const years = archiveYears.map((entry) => ({
+  ...entry,
+  cover: entry.cover ? assetUrl(entry.cover) : null,
+  coverThumb: entry.coverThumb ? assetUrl(entry.coverThumb) : null,
+  weeks: entry.weeks.map((week) => ({
+    ...week,
+    image: assetUrl(week.image),
+    thumb: assetUrl(week.thumb),
+  })),
+}))
+
+/**
+ * Tüm haftalar tek düz liste — yeniden eskiye.
+ * Kaynak: otomatik üretilen archive.js (bkz. npm run scan)
  */
-export const weeks = [
-  {
-    id: 'scan-2468',
-    weekNumber: 1,
-    label: 'IMG 2468',
-    range: 'Ajanda taraması · IMG_2468',
-    image: '/scans/IMG_2468.png',
-  },
-  {
-    id: 'scan-2469',
-    weekNumber: 2,
-    label: 'IMG 2469',
-    range: 'Ajanda taraması · IMG_2469',
-    image: '/scans/IMG_2469.png',
-  },
-  {
-    id: 'scan-2470',
-    weekNumber: 3,
-    label: 'IMG 2470',
-    range: 'Ajanda taraması · IMG_2470',
-    image: '/scans/IMG_2470.png',
-  },
-  {
-    id: 'scan-2471',
-    weekNumber: 4,
-    label: 'IMG 2471',
-    range: 'Ajanda taraması · IMG_2471',
-    image: '/scans/IMG_2471.png',
-  },
-  {
-    id: 'scan-2472',
-    weekNumber: 5,
-    label: 'IMG 2472',
-    range: 'Ajanda taraması · IMG_2472',
-    image: '/scans/IMG_2472.png',
-  },
-  {
-    id: 'scan-2473',
-    weekNumber: 6,
-    label: 'IMG 2473',
-    range: 'Ajanda taraması · IMG_2473',
-    image: '/scans/IMG_2473.png',
-  },
-]
+export const weeks = years.flatMap((entry) => [...entry.weeks].reverse())
 
 export const latestWeek = weeks[0]
+
+export function getYear(year) {
+  return years.find((entry) => entry.year === year) ?? null
+}
+

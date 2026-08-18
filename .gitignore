@@ -22,3 +22,13 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# HDR orijinalleri (sRGB'ye çevirmeden önceki yedek)
+.originals/
+
+# Arşiv görselleri — kaynak taramalar, hero/display, thumbnails, kâğıt zeminleri
+public/scans/
+public/display/
+public/thumbs/
+public/bg-*.jpg
+public/footer.jpg
