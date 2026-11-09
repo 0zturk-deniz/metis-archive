@@ -91,6 +91,10 @@ function App() {
   const activeCopy = activeWeek ? weekText(activeWeek, language) : null;
   const previousCopy = previousWeek ? weekText(previousWeek, language) : null;
   const nextCopy = nextWeek ? weekText(nextWeek, language) : null;
+  const openYearNote =
+    openYearEntry != null
+      ? (t.archive.yearNotes?.[String(openYearEntry.year)] ?? null)
+      : null;
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", darkMode);
@@ -495,6 +499,13 @@ function App() {
             </button>
           )}
         </div>
+
+        {!isSearching && openYearNote && (
+          <div className="archive__year-note">
+            <p className="archive__year-note-title">{openYearNote.title}</p>
+            <p>{openYearNote.body}</p>
+          </div>
+        )}
 
         {isSearching ? (
           <ul className="grid grid--weeks">

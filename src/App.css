@@ -566,6 +566,34 @@
   font-weight: 300;
 }
 
+/* Yıla özel not — başlık ile hafta grid’i arasında; geniş ekranda yarım, dar ekranda tam */
+.archive__year-note {
+  width: 50%;
+  margin: 0 0 1.75rem;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  font-weight: 300;
+  line-height: 1.55;
+}
+
+.archive__year-note p {
+  margin: 0;
+}
+
+.archive__year-note-title {
+  margin: 0 0 0.45rem;
+  color: var(--ink);
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 900px) {
+  .archive__year-note {
+    width: 100%;
+  }
+}
+
 /* —— Grid (years + weeks) —— */
 .grid {
   list-style: none;

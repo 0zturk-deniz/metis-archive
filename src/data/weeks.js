@@ -1,8 +1,13 @@
 import { years as archiveYears } from './archive'
+import { unpublishedYears } from './unpublishedYears'
 
 const assetUrl = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`
 
-export const years = archiveYears.map((entry) => ({
+const sourceYears = import.meta.env.PROD
+  ? archiveYears.filter((entry) => !unpublishedYears.includes(entry.year))
+  : archiveYears
+
+export const years = sourceYears.map((entry) => ({
   ...entry,
   cover: entry.cover ? assetUrl(entry.cover) : null,
   coverThumb: entry.coverThumb ? assetUrl(entry.coverThumb) : null,

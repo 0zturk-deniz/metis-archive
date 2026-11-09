@@ -50,6 +50,12 @@ export const content = {
       back: "← All years",
       weekMeta: (n) => `Week ${n}`,
       scrollTop: "Back to top",
+      yearNotes: {
+        "2019": {
+          title: "A note on 2019",
+          body: "My drawing on Metis planners traces back to the daily ferry trips I took in 2019, shuttling between my beloved home in Kadıköy and my equally beloved job in Karaköy. Since 2019, the things I tried so hard to hold onto back then—my home, my job, and my spouse—all parted ways with me one by one. Sadly, the 2019 Metis Planner took its share of these departures and was taken away from me. Because I no longer have the planner physically in hand, I compiled the 2019 archive from the daily photos I snapped that year and the Instagram stories I posted at the time; that’s why some of them still carry story captions.",
+        },
+      },
     },
     footer: {
       credit:
@@ -107,6 +113,12 @@ export const content = {
       back: "← Tüm yıllar",
       weekMeta: (n) => `Hafta ${n}`,
       scrollTop: "Yukarı çık",
+      yearNotes: {
+        "2019": {
+          title: "2019 yılı için özel not",
+          body: "Metis ajandalara çizim yapmaya başlamam, 2019 yılında Kadıköy’deki çok sevdiğim evim ile Karaköy’deki çok sevdiğim işim arasında her gün mekik dokuduğum vapur yolculuklarına dayanır. 2019’dan bu yana o yıllarda sıkı sıkı sarılmaya çalıştığım evim, işim, eşimle yollarımız bir bir ayrıldı. Bu ayrılışlardan ne yazık ki Metis Ajanda 2019 da nasibini aldı ve benden alıkonuldu. Ajanda fiziksel olarak elimde olmadığı için, 2019 yılı arşivini 2019 yılında çektiğim günlük fotoğraflardan ve o dönem paylaştığım Instagram hikayelerimden derledim; o sebeple bazılarında hikaye notları da var.",
+        },
+      },
     },
     footer: {
       credit:
