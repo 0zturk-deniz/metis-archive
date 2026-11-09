@@ -69,7 +69,7 @@ Kurallar:
 - visibleText alanına yalnızca anlamlı el yazılarını, alıntıları, kitap/yazar adlarını ve dikkat çekici basılı ifadeleri ekle.
 - Ay, gün, tarih, sayfa numarası ve Pazartesi/Monday gibi standart ajanda metinlerini visibleText veya searchTerms alanına ekleme.
 - moods ve themes alanlarını çizim, renk, kompozisyon ve anlamlı metne dayanarak seç; "dikkatli" gibi belirsiz sıfatlardan kaçın.
-- searchTerms iki dilli olsun: her önemli Türkçe terimin yanına İngilizce eş anlamlısını da ekle (ör. kedi + cat, deniz + sea, yalnızlık + loneliness).
+- searchTerms iki dilli olsun: her önemli Türkçe terimi ve İngilizce eş anlamlısını dizide ayrı öğeler olarak yaz, "+" ile birleştirme. Biçim örneği: ["terim", "term", "ikinci terim", "second term"]. Bu örnekteki kelimeleri kopyalama, yalnızca görselde gördüklerini yaz.
 - searchTerms yalnızca bu haftaya özgü, görselde gerçekten desteklenen nesne, hayvan, duygu, tema ve eş anlamlılardan oluşsun.
 - searchTerms'e ajanda, takvim, doodle, el yazısı, kalem, çizim, sayfa gibi bütün haftalarda bulunabilecek genel kelimeleri ekleme.
 - Görünen yazıları uydurma; okuyamadığın metni uncertainty alanına ekle.

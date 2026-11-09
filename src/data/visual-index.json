@@ -1,6 +1,6 @@
 {
   "model": "qwen3-vl:4b-instruct",
-  "generatedAt": "2026-08-16T14:54:11.066Z",
+  "generatedAt": "2026-11-09T08:33:40.512Z",
   "entries": {
     "2025-w03": {
       "weekId": "2025-w03",
@@ -382,10 +382,6 @@
         "doodle"
       ],
       "searchTerms": [
-        "Ocak",
-        "Pazartesi",
-        "Cuma",
-        "Pazar",
         "el çizimi",
         "metinli çizim"
       ],
@@ -517,9 +513,6 @@
         "kendine özgü çizimler"
       ],
       "searchTerms": [
-        "Şubat",
-        "Pazartesi",
-        "Cuma",
         "Oscar Wilde",
         "Alexander Seurat"
       ],
@@ -583,11 +576,6 @@
       ],
       "searchTerms": [
         "kalem çizimi",
-        "Şubat",
-        "Pazartesi",
-        "Cuma",
-        "Cumartesi",
-        "Pazar",
         "Firtına",
         "Dolunay",
         "alıntı",
@@ -653,10 +641,6 @@
       "searchTerms": [
         "el çizimi",
         "kalem çizimi",
-        "Şubat",
-        "Pazartesi",
-        "Cuma",
-        "Perşembe",
         "kedi",
         "pinguin",
         "insan",
@@ -771,11 +755,7 @@
         "doğal",
         "düşünce"
       ],
-      "searchTerms": [
-        "Mart",
-        "Pazartesi",
-        "Cuma"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2025-w11": {
@@ -816,9 +796,7 @@
         "çocuklar",
         "kışlık kıyafetler"
       ],
-      "searchTerms": [
-        "Mart"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2025-w12": {
@@ -857,11 +835,7 @@
         "aile",
         "değişim"
       ],
-      "searchTerms": [
-        "Mart",
-        "Pazartesi",
-        "Cuma"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2025-w13": {
@@ -913,8 +887,6 @@
       ],
       "searchTerms": [
         "kalem çizimi",
-        "Mart",
-        "Pazar",
         "balık"
       ],
       "uncertainty": []
@@ -959,9 +931,7 @@
         "çizim"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Nisan",
-        "Cuma/Friday"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -999,11 +969,7 @@
         "doğal manzara",
         "insanın içsel düşünceleri"
       ],
-      "searchTerms": [
-        "Nisan",
-        "salı",
-        "perşembe"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2025-w17": {
@@ -1037,9 +1003,7 @@
         "alıntılar"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Nisan",
-        "Pazartesi/Monday"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -1082,11 +1046,7 @@
         "dijital takvim",
         "dönemsel günler"
       ],
-      "searchTerms": [
-        "Nisan",
-        "Mayıs",
-        "Pazartesi/Monday"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2025-w19": {
@@ -1121,11 +1081,7 @@
         "el yazısı",
         "doodle"
       ],
-      "searchTerms": [
-        "Mayıs",
-        "Pazartesi",
-        "Salı"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2025-w20": {
@@ -1157,10 +1113,7 @@
       ],
       "moods": [],
       "themes": [],
-      "searchTerms": [
-        "Pazartesi/Monday",
-        "Mayıs"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2025-w21": {
@@ -1204,9 +1157,7 @@
         "çizim"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Mayıs",
-        "Pazartesi/Monday"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -1252,10 +1203,7 @@
         "tarih"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Mayıs",
-        "Pazar",
-        "Cumartesi"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -1294,10 +1242,7 @@
         "el yazısı"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Haziran",
-        "Pazartesi",
-        "Cuma"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -1334,9 +1279,7 @@
         "dijital",
         "düşünce"
       ],
-      "searchTerms": [
-        "Haziran"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2025-w25": {
@@ -1385,9 +1328,7 @@
         "dokümanlar"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Haziran",
-        "Cuma/Friday"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -1426,9 +1367,7 @@
         "dokunaklı"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Temmuz",
-        "Pazartesi"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -1461,9 +1400,7 @@
       ],
       "moods": [],
       "themes": [],
-      "searchTerms": [
-        "Temmuz"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2025-w29": {
@@ -1503,10 +1440,7 @@
         "alıntı",
         "renkli çizim"
       ],
-      "searchTerms": [
-        "Temmuz",
-        "Pazartesi"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2025-w30": {
@@ -1599,9 +1533,7 @@
         "metinler",
         "hafıza"
       ],
-      "searchTerms": [
-        "Ağustos"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2025-w32": {
@@ -1637,9 +1569,7 @@
         "doodle"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Ağustos",
-        "Pazartesi/Monday"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -1674,9 +1604,7 @@
       "moods": [],
       "themes": [],
       "searchTerms": [
-        "kalem çizimi",
-        "Ağustos",
-        "Pazartesi"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -1719,9 +1647,7 @@
         "gün"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Ağustos",
-        "Pazartesi"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -1761,8 +1687,7 @@
       ],
       "searchTerms": [
         "el çizimi",
-        "kedi",
-        "Eylül"
+        "kedi"
       ],
       "uncertainty": []
     },
@@ -1813,9 +1738,7 @@
         "sayfa"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Eylül September",
-        "Pazartesi/Monday"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -1856,9 +1779,7 @@
         "metin",
         "tarih"
       ],
-      "searchTerms": [
-        "Eylül"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2025-w38": {
@@ -1897,9 +1818,7 @@
         "daha fazla zaman"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Eylül",
-        "Pazartesi"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -1937,8 +1856,7 @@
       "searchTerms": [
         "kedi",
         "ay",
-        "gün",
-        "Pazartesi/Monday"
+        "gün"
       ],
       "uncertainty": []
     },
@@ -1989,9 +1907,7 @@
         "düşünce"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Ekim",
-        "Pazartesi/Monday"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -2033,9 +1949,7 @@
         "dönemsel planlama"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Ekim",
-        "Pazartesi/Monday"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -2069,9 +1983,7 @@
         "sayfa"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Ekim",
-        "Kasım"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -2112,9 +2024,7 @@
         "renk"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Kasım",
-        "Pazartesi"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -2149,9 +2059,7 @@
       "moods": [],
       "themes": [],
       "searchTerms": [
-        "kalem çizimi",
-        "Kasım",
-        "Pazartesi"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -2178,10 +2086,7 @@
       "visualStyle": [],
       "moods": [],
       "themes": [],
-      "searchTerms": [
-        "Kasım",
-        "Pazartesi/Monday"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2025-w47": {
@@ -2228,8 +2133,6 @@
       ],
       "searchTerms": [
         "kalem çizimi",
-        "Kasım",
-        "November",
         "el çizimleri"
       ],
       "uncertainty": []
@@ -2271,11 +2174,7 @@
         "metin",
         "ay"
       ],
-      "searchTerms": [
-        "Aralık",
-        "Pazartesi",
-        "Cuma"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2025-w49": {
@@ -2321,11 +2220,7 @@
         "metin",
         "çizim"
       ],
-      "searchTerms": [
-        "Aralık",
-        "Cuma",
-        "Cumartesi"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2025-w50": {
@@ -2362,10 +2257,7 @@
         "metin",
         "çizim"
       ],
-      "searchTerms": [
-        "Aralık",
-        "December"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2025-w51": {
@@ -2397,10 +2289,7 @@
         "doodle",
         "el yazısı"
       ],
-      "searchTerms": [
-        "Aralık",
-        "Pazartesi"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2026-w01": {
@@ -2479,9 +2368,7 @@
         "döşeme"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Ocak",
-        "Pazartesi/Monday"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -2520,9 +2407,7 @@
         "doodle"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Ocak",
-        "salı"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -2569,9 +2454,7 @@
         "el yazısı"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Ocak",
-        "Pazartesi/Monday"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -2621,7 +2504,6 @@
       ],
       "searchTerms": [
         "kalem çizimi",
-        "Ocak",
         "Subat"
       ],
       "uncertainty": []
@@ -2651,10 +2533,7 @@
       ],
       "moods": [],
       "themes": [],
-      "searchTerms": [
-        "Pazartesi",
-        "Cuma"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2026-w07": {
@@ -2694,9 +2573,7 @@
         "metin alıntıları"
       ],
       "searchTerms": [
-        "balık",
-        "Şubat",
-        "Pazar"
+        "balık"
       ],
       "uncertainty": []
     },
@@ -2738,8 +2615,7 @@
       ],
       "searchTerms": [
         "kalem çizimi",
-        "Fevral",
-        "Pazartesi/Monday"
+        "Fevral"
       ],
       "uncertainty": []
     },
@@ -2759,7 +2635,6 @@
       "people": [],
       "visibleText": [
         "Dünya",
-        "FEBRUARY",
         "23",
         "24 Sali/Tuesday 25 Çarşamba/Wednesday 26 Perşembe/Thursday 27 28 1 42 43"
       ],
@@ -2781,9 +2656,7 @@
         "komik metin"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "FEBRUARY",
-        "MART"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -2803,9 +2676,7 @@
       "moods": [],
       "themes": [],
       "searchTerms": [
-        "kalem çizimi",
-        "Mart",
-        "Pazartesi"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -2833,9 +2704,7 @@
       "moods": [],
       "themes": [],
       "searchTerms": [
-        "kalem çizimi",
-        "Mart",
-        "Pazartesi/Monday"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -2865,9 +2734,7 @@
       "moods": [],
       "themes": [],
       "searchTerms": [
-        "kalem çizimi",
-        "Mart",
-        "Pazartesi"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -2900,9 +2767,7 @@
       "moods": [],
       "themes": [],
       "searchTerms": [
-        "kalem çizimi",
-        "Mart",
-        "Pazartesi"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -2935,10 +2800,7 @@
         "doodle",
         "metin"
       ],
-      "searchTerms": [
-        "Nisan",
-        "Pazartesi"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2026-w15": {
@@ -2970,9 +2832,7 @@
         "dil"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Nisan",
-        "Pazar"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -3000,9 +2860,7 @@
       "moods": [],
       "themes": [],
       "searchTerms": [
-        "kalem çizimi",
-        "Pazartesi",
-        "Cuma"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -3032,9 +2890,7 @@
       "moods": [],
       "themes": [],
       "searchTerms": [
-        "kalem çizimi",
-        "Pazar/Sunday",
-        "Nisan April"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -3071,9 +2927,7 @@
         "aylar"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Nisan",
-        "Mayıs"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -3101,9 +2955,7 @@
       "moods": [],
       "themes": [],
       "searchTerms": [
-        "kalem çizimi",
-        "Pazartesi",
-        "Cuma"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -3129,9 +2981,7 @@
       "moods": [],
       "themes": [],
       "searchTerms": [
-        "kalem çizimi",
-        "Pazartesi/Monday",
-        "Cuma/Friday"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -3159,9 +3009,7 @@
       "moods": [],
       "themes": [],
       "searchTerms": [
-        "kalem çizimi",
-        "Mayıs",
-        "Pazartesi/Monday"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -3192,10 +3040,7 @@
       "moods": [],
       "themes": [],
       "searchTerms": [
-        "kalem çizimi",
-        "Mayıs",
-        "Pazartesi",
-        "Çarşamba"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -3227,9 +3072,6 @@
         "alıntı"
       ],
       "searchTerms": [
-        "Haziran",
-        "Pazartesi",
-        "Cuma",
         "alıntı"
       ],
       "uncertainty": []
@@ -3264,9 +3106,7 @@
         "dikkatli"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Haziran",
-        "Pazar"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -3302,9 +3142,7 @@
         "tarih"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Haziran",
-        "Pazartesi/Monday"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -3347,9 +3185,7 @@
         "yazılı metin"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Haziran",
-        "Pazar"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -3394,9 +3230,7 @@
         "yaz"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Haziran",
-        "Pazartesi/Monday"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -3442,9 +3276,7 @@
         "düşünce"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Temmuz",
-        "Pazartesi"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -3489,9 +3321,7 @@
         "doğal",
         "kedi"
       ],
-      "searchTerms": [
-        "Temmuz"
-      ],
+      "searchTerms": [],
       "uncertainty": []
     },
     "2026-w30": {
@@ -3536,9 +3366,7 @@
         "dokunaklı çizim"
       ],
       "searchTerms": [
-        "kalem çizimi",
-        "Temmuz",
-        "Pazartesi/Monday"
+        "kalem çizimi"
       ],
       "uncertainty": []
     },
@@ -3664,12 +3492,2855 @@
         "sanatçı tarzı notlar",
         "dijital ajanda"
       ],
+      "searchTerms": [],
+      "uncertainty": []
+    },
+    "2026-w34": {
+      "weekId": "2026-w34",
+      "image": "scans/2026-34.png",
+      "thumb": "thumbs/2026-34.png",
+      "analyzedAt": "2026-08-24T14:42:59.779Z",
+      "reviewed": true,
+      "summary": "Ağustos ayı için haftalık bir takvim sayfası, renkli kalem çizimleri ve el yazısı içeren bir döşeme.",
+      "objects": [
+        "bardak",
+        "ev",
+        "tarla",
+        "ağaç",
+        "samanlar",
+        "iksir"
+      ],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "Agustos August",
+        "Pazartesi Monday",
+        "Salı Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cuma Friday",
+        "Cumartesi Saturday",
+        "Pazar Sunday"
+      ],
+      "colors": [
+        "pembe",
+        "mavi",
+        "sarı",
+        "mor",
+        "kırmızı",
+        "neon pembe"
+      ],
+      "visualStyle": [
+        "kalem çizimi",
+        "el yazısı",
+        "doodle",
+        "sulu pastel boyama"
+      ],
+      "moods": [
+        "moody",
+        "gizemli",
+        "masalsı"
+      ],
+      "themes": [],
       "searchTerms": [
-        "Ağustos",
-        "Pazartesi",
-        "Perşembe"
+        "kalem çizimi",
+        "ev",
+        "masalsı",
+        "garip",
+        "huzurlu"
       ],
       "uncertainty": []
+    },
+    "2026-w35": {
+      "weekId": "2026-w35",
+      "image": "scans/2026-35.png",
+      "thumb": "thumbs/2026-35.png",
+      "analyzedAt": "2026-08-30T09:11:34.365Z",
+      "reviewed": false,
+      "summary": "Ağustos ayı için haftalık bir takvim sayfası, el çizimleri ve alıntılar içeren bir ajanda taramasıdır.",
+      "objects": [
+        "melisa dalı",
+        "unlu bit",
+        "sprey şişesi"
+      ],
+      "animals": [
+        "unlu bit"
+      ],
+      "people": [
+        "bir el"
+      ],
+      "visibleText": [
+        "Zafer Bayramı"
+      ],
+      "colors": [
+        "yeşil",
+        "sarı",
+        "turuncu",
+        "pembe",
+        "kahverengi"
+      ],
+      "visualStyle": [
+        "tekrar eden desenler",
+        "el çizimi"
+      ],
+      "moods": [
+        "zafer",
+        "yılgınlık",
+        "mücadele etmek"
+      ],
+      "themes": [],
+      "searchTerms": [
+        "Zafer Bayramı"
+      ],
+      "uncertainty": []
+    },
+    "2019-w05": {
+      "weekId": "2019-w05",
+      "image": "scans/2019-5.png",
+      "thumb": "thumbs/2019-05.png",
+      "analyzedAt": "2026-08-30T12:07:22.043Z",
+      "reviewed": false,
+      "summary": "Bir elin tuttuğu, 2025 yılı Ocak ve Şubat aylarını içeren bir takvim sayfası. Her günün başında el çizimleri ve metinlerle süslenmiş, bir alıntıyla sonlanan sayfa.",
+      "objects": [
+        "el çizimi"
+      ],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [
+        "Subat February"
+      ],
+      "colors": [
+        "mavi",
+        "kırmızı",
+        "sarı",
+        "yeşil",
+        "mor"
+      ],
+      "visualStyle": [
+        "su boyu",
+        "doodle",
+        "dijital çizim"
+      ],
+      "moods": [
+        "düşünceli"
+      ],
+      "themes": [
+        "takvim",
+        "dönem",
+        "ay",
+        "gün",
+        "alıntı"
+      ],
+      "searchTerms": [
+        "Subat February",
+        "Pazartesi Monday",
+        "Salı Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cuma Friday",
+        "Cumartesi Saturday"
+      ],
+      "uncertainty": []
+    },
+    "2019-w06": {
+      "weekId": "2019-w06",
+      "image": "scans/2019-6.png",
+      "thumb": "thumbs/2019-06.png",
+      "analyzedAt": "2026-08-30T12:07:41.177Z",
+      "reviewed": false,
+      "summary": "Şubat ayı için bir takvim sayfası, el çizimleri ve metinlerle doldurulmuş, günler ve ay isimleri Türkçe ve İngilizce olarak belirtilmiştir.",
+      "objects": [],
+      "animals": [],
+      "people": [],
+      "visibleText": [],
+      "colors": [],
+      "visualStyle": [],
+      "moods": [],
+      "themes": [],
+      "searchTerms": [],
+      "uncertainty": []
+    },
+    "2019-w07": {
+      "weekId": "2019-w07",
+      "image": "scans/2019-7.png",
+      "thumb": "thumbs/2019-07.png",
+      "analyzedAt": "2026-08-30T12:07:57.806Z",
+      "reviewed": false,
+      "summary": "Subat ayı için bir takvim sayfası, el çizimleri ve metinlerle doldurulmuş, komünizm konusunda bir alıntı içeriyor.",
+      "objects": [],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "Subat February"
+      ],
+      "colors": [],
+      "visualStyle": [],
+      "moods": [],
+      "themes": [],
+      "searchTerms": [],
+      "uncertainty": []
+    },
+    "2019-w08": {
+      "weekId": "2019-w08",
+      "image": "scans/2019-8.png",
+      "thumb": "thumbs/2019-08.png",
+      "analyzedAt": "2026-08-30T12:08:21.294Z",
+      "reviewed": false,
+      "summary": "Subat ayı için bir takvim sayfası, el çizimleri ve metinlerle doldurulmuş, bir alıntı ve günlerin tarihleriyle birlikte.",
+      "objects": [],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "Subat February",
+        "Bir ipe, bir dile tutunmak... Belki de insanoglunun yaptigi budur... - Murathan Mungan, Harita Metod Defteri"
+      ],
+      "colors": [
+        "mavi",
+        "kırmızı",
+        "yeşil",
+        "sarı",
+        "gri"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "renkli",
+        "doodle"
+      ],
+      "moods": [
+        "düşünceli"
+      ],
+      "themes": [
+        "tarih",
+        "doküman",
+        "metin",
+        "çizim"
+      ],
+      "searchTerms": [
+        "Subat February",
+        "el çizimleri"
+      ],
+      "uncertainty": []
+    },
+    "2019-w09": {
+      "weekId": "2019-w09",
+      "image": "scans/2019-9.png",
+      "thumb": "thumbs/2019-09.png",
+      "analyzedAt": "2026-08-30T12:08:44.052Z",
+      "reviewed": false,
+      "summary": "Bir el, haftalık bir ajanda sayfasını tutuyor; sayfaların üstünde el çizimleri ve el yazıları var.",
+      "objects": [],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [
+        "Perşembenin gelisi çarşambadan belki olmustu, o yüzden ikisini aynı kared erittim",
+        "Biz ayrılamayız",
+        "Yeryüzünün 4.5 milyar yıllık hikâyesi tek bir güne uylarlandı, insanlığın bütün tarihi geçeyansından önceki saniyenin son kesrinde gerçekleşirdi, diyor jeoloji.",
+        "— Marcia Bjonerud, Timefulness",
+        "Subat February"
+      ],
+      "colors": [
+        "mavi",
+        "yeşil",
+        "koyu gri",
+        "turuncu",
+        "sarı",
+        "koyu mavi"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "el yazısı",
+        "doodle",
+        "sayfa"
+      ],
+      "moods": [],
+      "themes": [],
+      "searchTerms": [
+        "el",
+        "kalem çizimi",
+        "Subat February / Şubat February"
+      ],
+      "uncertainty": []
+    },
+    "2019-w10": {
+      "weekId": "2019-w10",
+      "image": "scans/2019-10.png",
+      "thumb": "thumbs/2019-10.png",
+      "analyzedAt": "2026-08-30T12:09:06.597Z",
+      "reviewed": false,
+      "summary": "Mart ayı için bir haftalık ajanda sayfası, el çizimleri ve el yazısı içeren bir taramadır.",
+      "objects": [],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [
+        "Dünya Emeğçi Ağaçlar",
+        "Gününüz kutlu olsun",
+        "Theodor W. Adorno, Minima Moralia"
+      ],
+      "colors": [
+        "mavi",
+        "yeşil",
+        "kırmızı",
+        "sarı",
+        "koyu mavi"
+      ],
+      "visualStyle": [
+        "su boyu",
+        "el çizimi",
+        "doodle"
+      ],
+      "moods": [
+        "dostça"
+      ],
+      "themes": [
+        "emek",
+        "ağaç",
+        "mutluluk",
+        "dostluk"
+      ],
+      "searchTerms": [
+        "kalem çizimi"
+      ],
+      "uncertainty": []
+    },
+    "2019-w11": {
+      "weekId": "2019-w11",
+      "image": "scans/2019-11.png",
+      "thumb": "thumbs/2019-11.png",
+      "analyzedAt": "2026-08-30T12:09:32.490Z",
+      "reviewed": false,
+      "summary": "Mart ayı için bir haftalık ajanda sayfası, el çizimleri ve el yazısı içeren bir döngüdür.",
+      "objects": [],
+      "animals": [
+        "balık",
+        "kareli balık"
+      ],
+      "people": [
+        "insan"
+      ],
+      "visibleText": [
+        "New York değil, alın teri değil",
+        "Kadıköy’den Kartal’a",
+        "İstanbul",
+        "Bugün insanlar, birbiri içine geçmiş siyasi, ekonomik ve kültürel güçler tarafından gitgide daha da zincire vurulsa da, özgür olmaya mahkûmlar. Şartlıca olmayan"
+      ],
+      "colors": [
+        "mavi",
+        "mor",
+        "kırmızı",
+        "sarı",
+        "yeşil",
+        "koyu gri"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "el yazısı",
+        "doodle"
+      ],
+      "moods": [
+        "düşünceli"
+      ],
+      "themes": [
+        "siyaset",
+        "kültür",
+        "görsel metin"
+      ],
+      "searchTerms": [
+        "Pazartesi Monday",
+        "Cuma Friday",
+        "Pazar Sunday",
+        "New York değil, alın teri değil",
+        "Kadıköy’den Kartal’a",
+        "İstanbul",
+        "siyaset"
+      ],
+      "uncertainty": [
+        "el yazısı",
+        "metin",
+        "kalem çizimi"
+      ]
+    },
+    "2019-w12": {
+      "weekId": "2019-w12",
+      "image": "scans/2019-12.png",
+      "thumb": "thumbs/2019-12.png",
+      "analyzedAt": "2026-08-30T12:09:54.616Z",
+      "reviewed": false,
+      "summary": "Mart ayı için bir takvim sayfası, el çizimleri ve metinlerle doldurulmuş, el yazısı ve doodle detayları içeriyor.",
+      "objects": [],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [
+        "Pazartesi Monday",
+        "Sali Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cuma Friday",
+        "Cumartesi Saturday",
+        "Pazar Sunday"
+      ],
+      "colors": [
+        "mavi",
+        "yeşil",
+        "kırmızı",
+        "sarı",
+        "mor"
+      ],
+      "visualStyle": [
+        "su boyu",
+        "doodle",
+        "el yazısı"
+      ],
+      "moods": [
+        "yaratıcı"
+      ],
+      "themes": [
+        "takvim",
+        "el çizimi",
+        "metin",
+        "doodle"
+      ],
+      "searchTerms": [
+        "Pazartesi Monday",
+        "Sali Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cuma Friday",
+        "Cumartesi Saturday",
+        "Pazar Sunday"
+      ],
+      "uncertainty": []
+    },
+    "2019-w13": {
+      "weekId": "2019-w13",
+      "image": "scans/2019-13.png",
+      "thumb": "thumbs/2019-13.png",
+      "analyzedAt": "2026-08-30T12:10:17.527Z",
+      "reviewed": false,
+      "summary": "Bir elin tuttuğu, Mart ayı için çizimler ve el yazısı içeren bir takvim sayfası.",
+      "objects": [
+        "el çizimi"
+      ],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [
+        "Çeyrek/ Tuesday"
+      ],
+      "colors": [
+        "mavi",
+        "yeşil",
+        "kırmızı",
+        "sarı",
+        "mor",
+        "koyu mavi"
+      ],
+      "visualStyle": [
+        "su boyu",
+        "kalem çizimi",
+        "doodle"
+      ],
+      "moods": [
+        "dokunaklı"
+      ],
+      "themes": [
+        "takvim",
+        "el yazısı",
+        "çizim",
+        "doodle"
+      ],
+      "searchTerms": [
+        "Çeyrek/ Tuesday"
+      ],
+      "uncertainty": []
+    },
+    "2019-w14": {
+      "weekId": "2019-w14",
+      "image": "scans/2019-14.png",
+      "thumb": "thumbs/2019-14.png",
+      "analyzedAt": "2026-08-30T12:10:39.554Z",
+      "reviewed": false,
+      "summary": "Bir elin tuttuğu, Nisan ayı için çizimler ve el yazıları içeren bir takvim sayfası.",
+      "objects": [],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [
+        "Yenişay Cuma/Friday",
+        "Georges Perec, Uyuyan Adam"
+      ],
+      "colors": [
+        "mavi",
+        "yeşil",
+        "kırmızı",
+        "sarı",
+        "koyu gri"
+      ],
+      "visualStyle": [
+        "su boyu",
+        "doodle",
+        "el çizimi"
+      ],
+      "moods": [
+        "dokunaklı",
+        "yaratıcı"
+      ],
+      "themes": [
+        "takvim",
+        "çizim",
+        "el yazısı",
+        "ay",
+        "gün"
+      ],
+      "searchTerms": [
+        "Yenişay Cuma/Friday",
+        "Georges Perec, Uyuyan Adam"
+      ],
+      "uncertainty": []
+    },
+    "2019-w15": {
+      "weekId": "2019-w15",
+      "image": "scans/2019-15.png",
+      "thumb": "thumbs/2019-15.png",
+      "analyzedAt": "2026-08-30T12:11:05.521Z",
+      "reviewed": false,
+      "summary": "Nisan ayı için haftalık bir takvim sayfası, el çizimleri ve bir alıntı içeren bir el yazısı ile doldurulmuştur.",
+      "objects": [],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "Daniel Chamovitz, Bükilerin Bildikleri",
+        "Görünmeyen gerekli şey, genel anlamda biyolojik açıdan yalnızca sempanze ve köpeklerle değil begonya ve sekoyalılar da ortak özelliklerimizin olduğudur. Çiçek a"
+      ],
+      "colors": [
+        "mavi",
+        "yeşil",
+        "kırmızı",
+        "sarı",
+        "pembe"
+      ],
+      "visualStyle": [
+        "su boyu",
+        "el çizimi",
+        "doodle"
+      ],
+      "moods": [
+        "düşünceli"
+      ],
+      "themes": [
+        "doğal yaşam",
+        "bilim",
+        "dikkat çekici metin"
+      ],
+      "searchTerms": [
+        "Daniel Chamovitz, Bükilerin Bildikleri",
+        "Görünmeyen gerekli şey, genel anlamda biyolojik açıdan yalnızca sempanze ve köpeklerle değil begonya ve sekoyalılar da ortak özelliklerimizin olduğudur. Çiçek a"
+      ],
+      "uncertainty": []
+    },
+    "2019-w16": {
+      "weekId": "2019-w16",
+      "image": "scans/2019-16.png",
+      "thumb": "thumbs/2019-16.png",
+      "analyzedAt": "2026-08-30T12:11:29.264Z",
+      "reviewed": false,
+      "summary": "Nisan ayı için bir haftalık takvim sayfası, el çizimleri ve metinlerle doldurulmuş, bir el tarafından tutulmaktadır.",
+      "objects": [
+        "el çizimi"
+      ],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [],
+      "colors": [
+        "mavi",
+        "sarı",
+        "yeşil",
+        "koyu gri",
+        "turuncu"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "renkli",
+        "doodle",
+        "metinli"
+      ],
+      "moods": [
+        "yazılı",
+        "dokunmatik"
+      ],
+      "themes": [
+        "takvim",
+        "el yazısı",
+        "doodle",
+        "metinli"
+      ],
+      "searchTerms": [
+        "Pazartesi Monday",
+        "Salı Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cuma Friday",
+        "Cumartesi Saturday",
+        "Pazar Sunday"
+      ],
+      "uncertainty": []
+    },
+    "2019-w17": {
+      "weekId": "2019-w17",
+      "image": "scans/2019-17.png",
+      "thumb": "thumbs/2019-17.png",
+      "analyzedAt": "2026-08-30T12:11:51.088Z",
+      "reviewed": false,
+      "summary": "Nisan ayı için açılmış bir takvim sayfası, el çizimleri ve el yazısıyla doldurulmuş, bir el tarafından tutulmaktadır.",
+      "objects": [],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [
+        "Göz yaşları bize tesbih tanelerim vardı. / Tesbih tanelerim bize göz yaşları... / Saydım insanın doksan dokuz tane yalnızlığı vardı.",
+        "— Didem Madak, Ak’lar Ağaçlı"
+      ],
+      "colors": [
+        "mavi",
+        "krem",
+        "yeşil",
+        "kırmızı"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "su boyası",
+        "doodle"
+      ],
+      "moods": [],
+      "themes": [
+        "takvim",
+        "el yazısı",
+        "doodle"
+      ],
+      "searchTerms": [
+        "Pazar Sunday",
+        "el"
+      ],
+      "uncertainty": []
+    },
+    "2019-w18": {
+      "weekId": "2019-w18",
+      "image": "scans/2019-18.png",
+      "thumb": "thumbs/2019-18.png",
+      "analyzedAt": "2026-08-30T12:12:13.145Z",
+      "reviewed": false,
+      "summary": "El çizimli ve el yazısı içeren bir takvim sayfası, Nisan ve Mayıs aylarını gösteriyor.",
+      "objects": [],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [],
+      "colors": [
+        "mavi",
+        "krem",
+        "yeşil",
+        "kahverengi"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "el yazısı"
+      ],
+      "moods": [],
+      "themes": [
+        "takvim",
+        "doodle",
+        "el yazısı",
+        "çizim"
+      ],
+      "searchTerms": [],
+      "uncertainty": []
+    },
+    "2019-w19": {
+      "weekId": "2019-w19",
+      "image": "scans/2019-19.png",
+      "thumb": "thumbs/2019-19.png",
+      "analyzedAt": "2026-08-30T12:12:36.357Z",
+      "reviewed": false,
+      "summary": "Mayıs ayı için haftalık bir ajanda sayfası, el çizimleri ve metinlerle doldurulmuş, bir el tarafından tutulmaktadır.",
+      "objects": [],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "Bazen hem yağmurlu hem güneşli olabilir",
+        "İlk döndüm Pazar/Sunday",
+        "İnsan ırkına gelince... İnsan ırkının bir sürtü hoş ve çekici yani var. Bütün tanrıların tüm icatları içinde en zavallı olan muhtemelen insanlardır; ama kendisi"
+      ],
+      "colors": [],
+      "visualStyle": [],
+      "moods": [],
+      "themes": [],
+      "searchTerms": [
+        "Bazen hem yağmurlu hem güneşli olabilir",
+        "İlk döndüm Pazar/Sunday",
+        "İnsan ırkına gelince... İnsan ırkının bir sürtü hoş ve çekici yani var. Bütün tanrıların tüm icatları içinde en zavallı olan muhtemelen insanlardır; ama kendisi"
+      ],
+      "uncertainty": []
+    },
+    "2019-w20": {
+      "weekId": "2019-w20",
+      "image": "scans/2019-20.png",
+      "thumb": "thumbs/2019-20.png",
+      "analyzedAt": "2026-08-30T12:13:01.595Z",
+      "reviewed": false,
+      "summary": "Mayıs ayı için bir haftalık ajanda sayfası, deniz ve denizanası temalı el çizimleri ve yazılarla doldurulmuştur.",
+      "objects": [
+        "deniz",
+        "kayık",
+        "kutu",
+        "dolphin",
+        "ağaç"
+      ],
+      "animals": [
+        "denizanası",
+        "havuç kuşu"
+      ],
+      "people": [
+        "el çizimli insan"
+      ],
+      "visibleText": [
+        "13",
+        "14",
+        "16",
+        "SEHIR SENIN",
+        "Banyo içinde Bırakma Yayınlama Üstüne"
+      ],
+      "colors": [
+        "mavi",
+        "yeşil",
+        "krem",
+        "siyah"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "su boyası",
+        "doodle"
+      ],
+      "moods": [
+        "dokunaklı"
+      ],
+      "themes": [
+        "deniz",
+        "yaz",
+        "yazılık",
+        "kalem çizimi"
+      ],
+      "searchTerms": [
+        "13",
+        "14",
+        "16",
+        "SEHIR SENIN",
+        "Banyo içinde Bırakma Yayınlama Üstüne"
+      ],
+      "uncertainty": []
+    },
+    "2019-w21": {
+      "weekId": "2019-w21",
+      "image": "scans/2019-21.png",
+      "thumb": "thumbs/2019-21.png",
+      "analyzedAt": "2026-08-30T12:13:24.398Z",
+      "reviewed": false,
+      "summary": "Bir el, Mayıs ayı için bir haftalık ajanda sayfasını tutuyor; sayfada çizimler ve el yazısı var.",
+      "objects": [],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [
+        "20 Pazartesi/Monday",
+        "21 Salı/Tuesday",
+        "23 Perşembe/Thursday",
+        "76"
+      ],
+      "colors": [
+        "mavi",
+        "sarı",
+        "kırmızı",
+        "bej"
+      ],
+      "visualStyle": [
+        "doodle",
+        "el yazısı",
+        "sayfa"
+      ],
+      "moods": [],
+      "themes": [
+        "ajanda",
+        "takvim",
+        "doodle",
+        "el yazısı",
+        "kalem çizimi",
+        "sayfa"
+      ],
+      "searchTerms": [
+        "kalem çizimi"
+      ],
+      "uncertainty": []
+    },
+    "2019-w22": {
+      "weekId": "2019-w22",
+      "image": "scans/2019-22.png",
+      "thumb": "thumbs/2019-22.png",
+      "analyzedAt": "2026-08-30T12:13:44.949Z",
+      "reviewed": false,
+      "summary": "Bir el, haftalık bir ajanda sayfasını tutuyor; sayfada çizim ve el yazısı var.",
+      "objects": [],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [
+        "Kabak Meltami (2 gün)",
+        "24",
+        "29",
+        "78",
+        "İnsanın gününü iki sa...",
+        "— Max Horkheimer"
+      ],
+      "colors": [
+        "kırmızı",
+        "sarı",
+        "mavi",
+        "yeşil"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "el yazısı",
+        "doodle",
+        "sayfa"
+      ],
+      "moods": [],
+      "themes": [],
+      "searchTerms": [
+        "el",
+        "kalem çizimi"
+      ],
+      "uncertainty": []
+    },
+    "2019-w24": {
+      "weekId": "2019-w24",
+      "image": "scans/2019-24.png",
+      "thumb": "thumbs/2019-24.png",
+      "analyzedAt": "2026-08-30T12:14:09.032Z",
+      "reviewed": false,
+      "summary": "Haziran ayı için bir takvim sayfası, el çizimleri ve alıntılar içeren bir ajanda taramasıdır.",
+      "objects": [
+        "el çizimi"
+      ],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [
+        "İnsan beyhude bir turkudur. — Jean-Paul Sartre",
+        "İnsan denen yaratığın zulmetme kabiliyeti sınır tanımaz. Belki de kabiliyet uygun sözcük değil, zira etkin bir enerji getiriyor aklı, ve bu durumda böyle bir en"
+      ],
+      "colors": [
+        "mavi",
+        "sarı",
+        "yeşil",
+        "krem"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "kalem çizimi",
+        "doodle"
+      ],
+      "moods": [],
+      "themes": [
+        "alıntı",
+        "doküman",
+        "takvim"
+      ],
+      "searchTerms": [
+        "el çizimi",
+        "kalem çizimi"
+      ],
+      "uncertainty": []
+    },
+    "2019-w25": {
+      "weekId": "2019-w25",
+      "image": "scans/2019-25.png",
+      "thumb": "thumbs/2019-25.png",
+      "analyzedAt": "2026-08-30T12:14:32.323Z",
+      "reviewed": false,
+      "summary": "Haziran ayı için açılmış bir takvim sayfası, el çizimleri ve metinlerle dolu.",
+      "objects": [],
+      "animals": [
+        "kedi",
+        "deniz",
+        "koyun"
+      ],
+      "people": [
+        "insan"
+      ],
+      "visibleText": [],
+      "colors": [
+        "mavi",
+        "sarı",
+        "krem",
+        "yeşil"
+      ],
+      "visualStyle": [
+        "doodle",
+        "el çizimi",
+        "metinli çizim"
+      ],
+      "moods": [
+        "düşünceli"
+      ],
+      "themes": [
+        "takvim",
+        "el yazısı",
+        "çizim",
+        "metin",
+        "tarih"
+      ],
+      "searchTerms": [
+        "Pazartesi Monday",
+        "Salı Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cuma Friday",
+        "Cumartesi Saturday",
+        "Pazar Sunday"
+      ],
+      "uncertainty": []
+    },
+    "2019-w26": {
+      "weekId": "2019-w26",
+      "image": "scans/2019-26.png",
+      "thumb": "thumbs/2019-26.png",
+      "analyzedAt": "2026-08-30T12:14:54.793Z",
+      "reviewed": false,
+      "summary": "Bir elin tuttuğu, Haziran ayı için çizimli ve el yazısı içeren bir takvim sayfası.",
+      "objects": [],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [],
+      "colors": [
+        "mavi",
+        "kırmızı",
+        "sarı",
+        "mor",
+        "yeşil"
+      ],
+      "visualStyle": [
+        "su boyu",
+        "doodle",
+        "el çizimi"
+      ],
+      "moods": [
+        "dokunaklı"
+      ],
+      "themes": [
+        "takvim",
+        "el yazısı",
+        "çizim",
+        "ay"
+      ],
+      "searchTerms": [
+        "Pazartesi Monday",
+        "Salı Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cuma Friday",
+        "Cumartesi Saturday",
+        "Pazar Sunday"
+      ],
+      "uncertainty": []
+    },
+    "2019-w27": {
+      "weekId": "2019-w27",
+      "image": "scans/2019-27.png",
+      "thumb": "thumbs/2019-27.png",
+      "analyzedAt": "2026-08-30T12:15:13.558Z",
+      "reviewed": false,
+      "summary": "Temmuz ayı için haftalık bir takvim sayfası, el çizimleri ve metinlerle doldurulmuş.",
+      "objects": [],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "Bir taşın üstüne oturup ufa uzun uzun bakışımız bundan / Evlerimiz sokakımızda bizim üst üste yığılmış, öyle yakınız! / Biliriz yan yana sokulmak bu dünyadaki y"
+      ],
+      "colors": [],
+      "visualStyle": [],
+      "moods": [],
+      "themes": [],
+      "searchTerms": [],
+      "uncertainty": []
+    },
+    "2019-w28": {
+      "weekId": "2019-w28",
+      "image": "scans/2019-28.png",
+      "thumb": "thumbs/2019-28.png",
+      "analyzedAt": "2026-08-30T12:15:38.569Z",
+      "reviewed": false,
+      "summary": "Bir el çizimli haftalık takvim sayfası, 9-14 tarihleri ve metinlerle dolu, renkli görseller içeren bir ajanda taramasıdır.",
+      "objects": [],
+      "animals": [
+        "kedi"
+      ],
+      "people": [
+        "insan"
+      ],
+      "visibleText": [],
+      "colors": [
+        "mavi",
+        "kırmızı",
+        "sarı",
+        "yeşil",
+        "gri"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "su boyası",
+        "doodle",
+        "kalem çizimi"
+      ],
+      "moods": [
+        "düşünceli",
+        "yazılı"
+      ],
+      "themes": [
+        "takvim",
+        "el yazısı",
+        "doodle",
+        "renkli",
+        "metin"
+      ],
+      "searchTerms": [
+        "sakallı adam",
+        "bearded man",
+        "sokak",
+        "street",
+        "ağaç",
+        "tree",
+        "pencere",
+        "window",
+        "kedi gölgesi",
+        "cat shadow",
+        "siluet",
+        "silhouette",
+        "Kant",
+        "Bilge Karasu",
+        "Altı Ay Bir Güz"
+      ],
+      "uncertainty": []
+    },
+    "2019-w29": {
+      "weekId": "2019-w29",
+      "image": "scans/2019-29.png",
+      "thumb": "thumbs/2019-29.png",
+      "analyzedAt": "2026-08-30T12:16:02.958Z",
+      "reviewed": false,
+      "summary": "Temmuz ayı için bir takvim sayfası, el çizimleri ve alıntılar içeren bir ajanda taramasıdır.",
+      "objects": [],
+      "animals": [
+        "kedi"
+      ],
+      "people": [
+        "insan"
+      ],
+      "visibleText": [
+        "İnsan, evrende gövdeyi kadar değil, yüreğin kadar var kaplar.",
+        "—Kemal"
+      ],
+      "colors": [
+        "mavi",
+        "kırmızı",
+        "sarı",
+        "koyu mavi"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "renkli",
+        "doodle"
+      ],
+      "moods": [
+        "düşünceli"
+      ],
+      "themes": [
+        "takvim",
+        "el yazısı",
+        "doodle",
+        "alıntı"
+      ],
+      "searchTerms": [
+        "Pazartesi Monday",
+        "Salı Tuesday",
+        "Perşembe Thursday",
+        "Cumartesi Saturday",
+        "Pazar Sunday"
+      ],
+      "uncertainty": [
+        "insan",
+        "kedi",
+        "alıntı",
+        "renk",
+        "kompozisyon"
+      ]
+    },
+    "2019-w30": {
+      "weekId": "2019-w30",
+      "image": "scans/2019-30.png",
+      "thumb": "thumbs/2019-30.png",
+      "analyzedAt": "2026-08-30T12:16:20.014Z",
+      "reviewed": false,
+      "summary": "Temmuz ayı için haftalık bir takvim sayfası, el çizimleri ve el yazıları içeren bir ajanda taramasıdır.",
+      "objects": [],
+      "animals": [],
+      "people": [],
+      "visibleText": [],
+      "colors": [],
+      "visualStyle": [],
+      "moods": [],
+      "themes": [],
+      "searchTerms": [],
+      "uncertainty": []
+    },
+    "2019-w32": {
+      "weekId": "2019-w32",
+      "image": "scans/2019-32.png",
+      "thumb": "thumbs/2019-32.png",
+      "analyzedAt": "2026-08-30T12:16:45.532Z",
+      "reviewed": false,
+      "summary": "Ağustos ayı için haftalık bir takvim sayfası, el çizimleri ve metinlerle dolu.",
+      "objects": [],
+      "animals": [],
+      "people": [
+        "insan"
+      ],
+      "visibleText": [
+        "Kurban Bayramı'nın 1. Günü",
+        "Haydi git, git, dedi kuş; / İnsanlık fazla tahammül edemez gerçeklikle.",
+        "T. S. Eliot, \"Burnt Norton\"",
+        "Dünya Yeri Halklar Günü"
+      ],
+      "colors": [
+        "mavi",
+        "krem",
+        "yeşil",
+        "kırmızı"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "kalem çizimi",
+        "renkli",
+        "doodle"
+      ],
+      "moods": [
+        "düşünceli"
+      ],
+      "themes": [
+        "takvim",
+        "el yazısı",
+        "doodle",
+        "metin",
+        "gün"
+      ],
+      "searchTerms": [
+        "Kurban Bayramı'nın 1. Günü",
+        "Haydi git, git, dedi kuş; / İnsanlık fazla tahammül edemez gerçeklikle.",
+        "T. S. Eliot, \"Burnt Norton\"",
+        "Dünya Yeri Halklar Günü"
+      ],
+      "uncertainty": []
+    },
+    "2019-w34": {
+      "weekId": "2019-w34",
+      "image": "scans/2019-34.png",
+      "thumb": "thumbs/2019-34.png",
+      "analyzedAt": "2026-08-30T12:17:08.478Z",
+      "reviewed": false,
+      "summary": "Ağustos ayı için haftalık bir takvim sayfası, el çizimleri ve el yazıları içeren bir ajanda taramasıdır.",
+      "objects": [],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [],
+      "colors": [
+        "mavi",
+        "yeşil",
+        "kırmızı",
+        "krem",
+        "sarı"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "renkli",
+        "doodle"
+      ],
+      "moods": [
+        "düşünceli"
+      ],
+      "themes": [
+        "takvim",
+        "ajanda",
+        "el yazısı",
+        "doodle"
+      ],
+      "searchTerms": [
+        "Pazartesi Monday",
+        "Salı Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cuma Friday",
+        "Cumartesi Saturday",
+        "Pazar Sunday"
+      ],
+      "uncertainty": []
+    },
+    "2019-w35": {
+      "weekId": "2019-w35",
+      "image": "scans/2019-35.png",
+      "thumb": "thumbs/2019-35.png",
+      "analyzedAt": "2026-08-30T12:17:27.864Z",
+      "reviewed": false,
+      "summary": "El çizimli bir haftalık ajanda sayfası, kedi, deniz ve insan figürleri içeren bir kompozisyon gösteriyor.",
+      "objects": [],
+      "animals": [
+        "kedi"
+      ],
+      "people": [
+        "insan"
+      ],
+      "visibleText": [
+        "Agustos August",
+        "Pazartesi Monday",
+        "Salı Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cuma Friday",
+        "Cumartesi Saturday",
+        "Pazar Sunday"
+      ],
+      "colors": [],
+      "visualStyle": [],
+      "moods": [],
+      "themes": [],
+      "searchTerms": [
+        "kedi",
+        "cat",
+        "sarı kedi",
+        "yellow cat",
+        "deniz",
+        "sea",
+        "dalga",
+        "wave",
+        "oturan insanlar",
+        "sitting people",
+        "şehir silueti",
+        "city skyline",
+        "Addy Pross",
+        "nükleer silahlar",
+        "nuclear weapons"
+      ],
+      "uncertainty": []
+    },
+    "2019-w36": {
+      "weekId": "2019-w36",
+      "image": "scans/2019-36.png",
+      "thumb": "thumbs/2019-36.png",
+      "analyzedAt": "2026-08-30T12:17:48.496Z",
+      "reviewed": false,
+      "summary": "Eylül ayı için bir haftalık takvim sayfası, el çizimleri ve el yazıları içeren bir döngüdür.",
+      "objects": [],
+      "animals": [
+        "köpek"
+      ],
+      "people": [
+        "insan"
+      ],
+      "visibleText": [
+        "İnsanlar evrenin gökyüzündeki günümüze bir varlık tarafından yaratıldığını söyleyin, büyük çöpünüzü inanır. Böyuk isla deyin, ellemeden inanmazlar. — George Car"
+      ],
+      "colors": [],
+      "visualStyle": [],
+      "moods": [],
+      "themes": [],
+      "searchTerms": [
+        "köpek",
+        "dog",
+        "deniz",
+        "sea",
+        "kahve fincanı",
+        "coffee cup",
+        "can simidi",
+        "life buoy",
+        "dizüstü bilgisayar",
+        "laptop",
+        "portre",
+        "portrait",
+        "dua eden siluet",
+        "praying silhouette",
+        "Epikür",
+        "George Carlin",
+        "Eyub",
+        "Mihrican Fırtınası",
+        "Bıldırcın Geçimi Fırtınası"
+      ],
+      "uncertainty": []
+    },
+    "2019-w37": {
+      "weekId": "2019-w37",
+      "image": "scans/2019-37.png",
+      "thumb": "thumbs/2019-37.png",
+      "analyzedAt": "2026-08-30T12:18:09.392Z",
+      "reviewed": false,
+      "summary": "Eylül ayı için bir takvim sayfası, el çizimleri ve metinlerle doldurulmuş, bir el tarafından tutulmaktadır.",
+      "objects": [],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [
+        "Sömürgecilik sonrası kapitalist Batı modernliğin siyasal tahayüllünde ve bu tahayüllün evrensel insanlık iddialarında oluş ile sahip olus birbirleriyle ontolojî"
+      ],
+      "colors": [],
+      "visualStyle": [],
+      "moods": [],
+      "themes": [],
+      "searchTerms": [
+        "el çizimleri"
+      ],
+      "uncertainty": []
+    },
+    "2019-w38": {
+      "weekId": "2019-w38",
+      "image": "scans/2019-38.png",
+      "thumb": "thumbs/2019-38.png",
+      "analyzedAt": "2026-08-30T12:18:35.010Z",
+      "reviewed": false,
+      "summary": "Eylül ayı için bir takvim sayfası, deniz ve kıyı manzaraları ile bir balıkçılık motifü içeren el çizimleri ve el yazıları içeriyor.",
+      "objects": [
+        "deniz"
+      ],
+      "animals": [
+        "balık"
+      ],
+      "people": [
+        "el"
+      ],
+      "visibleText": [
+        "Pazartesi Monday",
+        "Cuma Friday",
+        "Cumartesi Saturday",
+        "Pazar Sunday",
+        "Edip Cansever",
+        "Ozon Tabakasının Korunması Ülkesi Bölgü",
+        "Bir şey başka olamaz, ama bir şey başka olamaz sözdene gibi / Bir şey başka olamaz, ama bir şey başka olamaz sözdene gibi / Tam öyle gibi, varyor gibi bir mutlú"
+      ],
+      "colors": [
+        "mavi",
+        "yeşil",
+        "kırmızı",
+        "bej"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "su boyası",
+        "doodle"
+      ],
+      "moods": [
+        "düşünceli"
+      ],
+      "themes": [
+        "doğal manzaralar",
+        "kültürel anlatı"
+      ],
+      "searchTerms": [
+        "kalem çizimi",
+        "deniz",
+        "balık",
+        "el"
+      ],
+      "uncertainty": [
+        "metin",
+        "el yazısı"
+      ]
+    },
+    "2019-w39": {
+      "weekId": "2019-w39",
+      "image": "scans/2019-39.png",
+      "thumb": "thumbs/2019-39.png",
+      "analyzedAt": "2026-08-30T12:18:57.063Z",
+      "reviewed": false,
+      "summary": "Eylül ayı için bir takvim sayfası, el çizimleri ve yazılarla doldurulmuş, bir kalem paletiyle birlikte gösterilmiştir.",
+      "objects": [
+        "kalem paleti"
+      ],
+      "animals": [
+        "kedi"
+      ],
+      "people": [
+        "insan"
+      ],
+      "visibleText": [
+        "Jacques Rancière, Cahil Hoca"
+      ],
+      "colors": [
+        "mavi",
+        "sarı",
+        "koyu mavi",
+        "kremi"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "el yazısı",
+        "doodle"
+      ],
+      "moods": [
+        "düşünceli"
+      ],
+      "themes": [
+        "takvim",
+        "el yazısı",
+        "çizim"
+      ],
+      "searchTerms": [
+        "Cumartesi Saturday",
+        "Pazar Sunday",
+        "Jacques Rancière Cahil Hoca",
+        "kalem paleti",
+        "el çizimi"
+      ],
+      "uncertainty": []
+    },
+    "2019-w40": {
+      "weekId": "2019-w40",
+      "image": "scans/2019-40.png",
+      "thumb": "thumbs/2019-40.png",
+      "analyzedAt": "2026-08-30T12:19:20.047Z",
+      "reviewed": false,
+      "summary": "Ekim ayı için el çizimli ve el yazısı içeren bir takvim sayfası.",
+      "objects": [],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "Gustave ve Flaubert, “Matmazel Amélie Bouquet’ye Meknup”"
+      ],
+      "colors": [
+        "mavi",
+        "sarı",
+        "koyu mavi",
+        "bej"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "kalem çizimi",
+        "renkli",
+        "doodle"
+      ],
+      "moods": [
+        "düşünceli"
+      ],
+      "themes": [
+        "takvim",
+        "el yazısı",
+        "çizim",
+        "ay",
+        "gün"
+      ],
+      "searchTerms": [
+        "Salı Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cuma Friday",
+        "Cumartesi Saturday",
+        "Pazar Sunday",
+        "Gustave Flaubert"
+      ],
+      "uncertainty": []
+    },
+    "2019-w41": {
+      "weekId": "2019-w41",
+      "image": "scans/2019-41.png",
+      "thumb": "thumbs/2019-41.png",
+      "analyzedAt": "2026-08-30T12:19:44.008Z",
+      "reviewed": false,
+      "summary": "Ekim ayı için haftalık bir takvim sayfası, el çizimleri ve metinlerle doldurulmuş, bir el tarafından tutulmaktadır.",
+      "objects": [
+        "ay",
+        "gün"
+      ],
+      "animals": [],
+      "people": [],
+      "visibleText": [],
+      "colors": [
+        "mavi",
+        "krem",
+        "kırmızı",
+        "siyah",
+        "beyaz"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "kalem çizimi",
+        "doodle",
+        "el yazısı",
+        "takvim"
+      ],
+      "moods": [
+        "düşünceli",
+        "düşünce"
+      ],
+      "themes": [
+        "takvim",
+        "el çizimi",
+        "metin",
+        "doodle",
+        "ay",
+        "gün"
+      ],
+      "searchTerms": [],
+      "uncertainty": []
+    },
+    "2019-w42": {
+      "weekId": "2019-w42",
+      "image": "scans/2019-42.png",
+      "thumb": "thumbs/2019-42.png",
+      "analyzedAt": "2026-08-30T12:20:03.245Z",
+      "reviewed": false,
+      "summary": "Ekim ayı için bir haftalık ajanda sayfası, el çizimleri ve el yazıları içeren bir taramadır.",
+      "objects": [],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "Yamayın 11. fütbol yarışması hayvanı karşıtıdır. Yarışma için bir tane Hayvanı 11. fütbol yarışması hayvanı karışıtıdır. Hayvanı 11. fütbol yarışması hayvanı 11"
+      ],
+      "colors": [],
+      "visualStyle": [],
+      "moods": [],
+      "themes": [],
+      "searchTerms": [],
+      "uncertainty": []
+    },
+    "2019-w43": {
+      "weekId": "2019-w43",
+      "image": "scans/2019-43.png",
+      "thumb": "thumbs/2019-43.png",
+      "analyzedAt": "2026-08-30T12:20:23.155Z",
+      "reviewed": false,
+      "summary": "Ekim ayı için bir takvim sayfası, çizimler ve el yazısı içeren bir ajanda taramasıdır.",
+      "objects": [],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "Hayal gücü temel bir düşünme yolu, insan olmanın ve insan kalmanın esaslı bir aracıdır. Zihne ait bir alettir. O yüzden de onu kullanmayı öğrenmemiz gerekir. Çö"
+      ],
+      "colors": [],
+      "visualStyle": [],
+      "moods": [],
+      "themes": [],
+      "searchTerms": [],
+      "uncertainty": []
+    },
+    "2019-w44": {
+      "weekId": "2019-w44",
+      "image": "scans/2019-44.png",
+      "thumb": "thumbs/2019-44.png",
+      "analyzedAt": "2026-08-30T12:20:46.140Z",
+      "reviewed": false,
+      "summary": "Açıkça görünen el çizimli ve el yazısı içeren bir haftalık ajanda sayfası, Ekim ve Kasım aylarını kapsayan bir takvim sayfasıdır.",
+      "objects": [],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "Çağdaş olmak, çağın karanlığının bize yönelttiği çarşıya cevap vermekti...",
+        "— Giorgio Agamben"
+      ],
+      "colors": [
+        "mavi",
+        "koyu mavi",
+        "sarı",
+        "kırmızı",
+        "yeşil"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "el yazısı"
+      ],
+      "moods": [
+        "düşünceli"
+      ],
+      "themes": [
+        "takvim",
+        "doodle",
+        "el yazısı",
+        "aylar"
+      ],
+      "searchTerms": [
+        "Pazartesi Monday",
+        "Cumartesi Saturday",
+        "Pazar Sunday",
+        "kalem çizimi"
+      ],
+      "uncertainty": []
+    },
+    "2019-w45": {
+      "weekId": "2019-w45",
+      "image": "scans/2019-45.png",
+      "thumb": "thumbs/2019-45.png",
+      "analyzedAt": "2026-08-30T12:21:05.775Z",
+      "reviewed": false,
+      "summary": "Kasım ayı için bir takvim sayfası, el çizimleri ve alıntılar içeren bir ajanda taramasıdır.",
+      "objects": [],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "Pazarüstü/Monday İlk dördün",
+        "İnsan, doğanın tek hatası — W. S. Gilbert"
+      ],
+      "colors": [],
+      "visualStyle": [],
+      "moods": [],
+      "themes": [],
+      "searchTerms": [
+        "el çizim",
+        "kalem çizimi",
+        "alıntı"
+      ],
+      "uncertainty": []
+    },
+    "2019-w46": {
+      "weekId": "2019-w46",
+      "image": "scans/2019-46.png",
+      "thumb": "thumbs/2019-46.png",
+      "analyzedAt": "2026-08-30T12:21:26.668Z",
+      "reviewed": false,
+      "summary": "Bir elin tuttuğu, Kasım ayı için çizimli ve el yazısı içeren bir takvim sayfası.",
+      "objects": [],
+      "animals": [],
+      "people": [
+        "insan"
+      ],
+      "visibleText": [
+        "12 Salı/Tuesday",
+        "13 Çarşamba/Wednesday",
+        "14 Perşembe/Thursday",
+        "146"
+      ],
+      "colors": [
+        "mavi",
+        "yeşil",
+        "sarı"
+      ],
+      "visualStyle": [
+        "doodle",
+        "el çizimi"
+      ],
+      "moods": [],
+      "themes": [
+        "takvim",
+        "ajanda",
+        "çizim",
+        "el yazısı"
+      ],
+      "searchTerms": [
+        "Salı Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "sayfa 146",
+        "el çizimi",
+        "kalem çizimi"
+      ],
+      "uncertainty": []
+    },
+    "2019-w47": {
+      "weekId": "2019-w47",
+      "image": "scans/2019-47.png",
+      "thumb": "thumbs/2019-47.png",
+      "analyzedAt": "2026-08-30T12:21:51.715Z",
+      "reviewed": false,
+      "summary": "Kasım ayı için açılmış bir takvim sayfası, el çizimleri ve el yazısı içeren bir ajanda taramasıdır.",
+      "objects": [],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [
+        "İnsan varlıklının elendsi değil, varlığın çobandır — Martin Heidegger",
+        "ne kadar zayıf insanın bedeni hayvan derisinden / kâğıt bile keser eti- ni bıçak kesmez iken tavuğun derisini... / koyunlar bile direniyor ap- tallaşıyor boğazl"
+      ],
+      "colors": [
+        "mavi",
+        "sarı",
+        "koyu mavi",
+        "yeşil",
+        "krem"
+      ],
+      "visualStyle": [
+        "su boyu",
+        "doodle",
+        "el yazısı"
+      ],
+      "moods": [
+        "düşünceli",
+        "dokunaklı"
+      ],
+      "themes": [
+        "düşünce",
+        "kültür",
+        "takvim"
+      ],
+      "searchTerms": [
+        "Pazar Sunday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cuma Friday",
+        "Cumartesi Saturday"
+      ],
+      "uncertainty": []
+    },
+    "2019-w48": {
+      "weekId": "2019-w48",
+      "image": "scans/2019-48.png",
+      "thumb": "thumbs/2019-48.png",
+      "analyzedAt": "2026-08-30T12:22:17.069Z",
+      "reviewed": false,
+      "summary": "Kısa bir haftalık takvim sayfası, el çizimleri ve metinlerle doldurulmuş, Kasım ve Aralık aylarını gösteriyor.",
+      "objects": [
+        "kupa",
+        "kova",
+        "kedi",
+        "tarih"
+      ],
+      "animals": [
+        "kedi"
+      ],
+      "people": [
+        "insan"
+      ],
+      "visibleText": [],
+      "colors": [
+        "mavi",
+        "sarı",
+        "yeşil",
+        "koyu mavi",
+        "krem",
+        "koyu kahverengi"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "su renkli",
+        "doodled"
+      ],
+      "moods": [
+        "düşünceli",
+        "daha fazla"
+      ],
+      "themes": [
+        "tarih",
+        "dönem"
+      ],
+      "searchTerms": [
+        "Pazartesi Monday",
+        "Salı Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cuma Friday",
+        "Pazar Sunday"
+      ],
+      "uncertainty": []
+    },
+    "2019-w49": {
+      "weekId": "2019-w49",
+      "image": "scans/2019-49.png",
+      "thumb": "thumbs/2019-49.png",
+      "analyzedAt": "2026-08-30T12:22:39.047Z",
+      "reviewed": false,
+      "summary": "Aralık ayı için bir takvim sayfası, el çizimleri ve metinlerle doldurulmuş, bir el tarafından tutulmaktadır.",
+      "objects": [
+        "el çizimi"
+      ],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [],
+      "colors": [
+        "mavi",
+        "krem",
+        "koyu kahverengi",
+        "sarı",
+        "yeşil"
+      ],
+      "visualStyle": [
+        "el yazısı",
+        "doodle",
+        "kalem çizimi"
+      ],
+      "moods": [],
+      "themes": [],
+      "searchTerms": [
+        "Pazartesi Monday",
+        "Salı Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cuma Friday",
+        "Cumartesi Saturday",
+        "Pazar Sunday"
+      ],
+      "uncertainty": []
+    },
+    "2019-w50": {
+      "weekId": "2019-w50",
+      "image": "scans/2019-50.png",
+      "thumb": "thumbs/2019-50.png",
+      "analyzedAt": "2026-08-30T12:23:01.661Z",
+      "reviewed": false,
+      "summary": "Aralık ayı için bir takvim sayfası, el çizimleri ve el yazısı içeren bir ajanda taramasıdır.",
+      "objects": [],
+      "animals": [],
+      "people": [],
+      "visibleText": [],
+      "colors": [
+        "mavi",
+        "kırmızı",
+        "yeşil",
+        "sarı"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "su boyası"
+      ],
+      "moods": [
+        "dokunaklı"
+      ],
+      "themes": [
+        "takvim",
+        "el yazısı",
+        "doodle",
+        "ay",
+        "gün"
+      ],
+      "searchTerms": [],
+      "uncertainty": []
+    },
+    "2019-w51": {
+      "weekId": "2019-w51",
+      "image": "scans/2019-51.png",
+      "thumb": "thumbs/2019-51.png",
+      "analyzedAt": "2026-08-30T12:23:24.310Z",
+      "reviewed": false,
+      "summary": "Bir el, Aralık ayı için çizimli ve yazılı bir takvim sayfasını tutuyor.",
+      "objects": [],
+      "animals": [],
+      "people": [
+        "insan"
+      ],
+      "visibleText": [],
+      "colors": [
+        "mavi",
+        "yeşil",
+        "kırmızı",
+        "sarı",
+        "gri"
+      ],
+      "visualStyle": [
+        "su boyu",
+        "el çizimi",
+        "dokunmatik"
+      ],
+      "moods": [
+        "düşünceli"
+      ],
+      "themes": [
+        "doğal",
+        "dönüşüm",
+        "düşünce"
+      ],
+      "searchTerms": [
+        "Pazartesi Monday",
+        "Salı Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cuma Friday",
+        "Cumartesi Saturday",
+        "Pazar Sunday"
+      ],
+      "uncertainty": []
+    },
+    "2019-w52": {
+      "weekId": "2019-w52",
+      "image": "scans/2019-52.png",
+      "thumb": "thumbs/2019-52.png",
+      "analyzedAt": "2026-08-30T12:23:48.764Z",
+      "reviewed": false,
+      "summary": "Aralık ayı için bir takvim sayfası, el çizimleri ve metinlerle doldurulmuş, el yazısı ve çizimlerle zenginleştirilmiş.",
+      "objects": [],
+      "animals": [],
+      "people": [
+        "el"
+      ],
+      "visibleText": [
+        "Yayar Kırımlar",
+        "Ursula K. Le Guin, Kadınlar Rüyalar Ejderhalar"
+      ],
+      "colors": [
+        "mavi",
+        "krem",
+        "kırmızı",
+        "siyah"
+      ],
+      "visualStyle": [
+        "doodle",
+        "el yazısı",
+        "çizim",
+        "sayfa"
+      ],
+      "moods": [
+        "düşünceli"
+      ],
+      "themes": [
+        "takvim",
+        "el çizimi",
+        "metin",
+        "ay",
+        "gün"
+      ],
+      "searchTerms": [
+        "Cuma Friday 27",
+        "Cumartesi Saturday 28",
+        "Pazar Sunday 29",
+        "Yayar Kırımlar",
+        "Ursula K. Le Guin",
+        "el çizim",
+        "kalem çizimi"
+      ],
+      "uncertainty": []
+    },
+    "2019-w53": {
+      "weekId": "2019-w53",
+      "image": "scans/2019-53.png",
+      "thumb": "thumbs/2019-53.png",
+      "analyzedAt": "2026-08-30T12:24:10.655Z",
+      "reviewed": false,
+      "summary": "Bir el, Aralık ayı için çizimli bir takvim sayfasını tutuyor.",
+      "objects": [
+        "el çizimi"
+      ],
+      "animals": [],
+      "people": [
+        "insan"
+      ],
+      "visibleText": [
+        "30 Pazartesi/Monday",
+        "31 Salı/Tuesday",
+        "1 Çarşamba/Wednesday",
+        "2 Perşembe/Thursday",
+        "164"
+      ],
+      "colors": [
+        "mavi",
+        "yeşil",
+        "kremi"
+      ],
+      "visualStyle": [
+        "doodle",
+        "el yazısı",
+        "renkli çizim"
+      ],
+      "moods": [],
+      "themes": [
+        "takvim",
+        "doodle",
+        "ay",
+        "gün",
+        "el yazısı"
+      ],
+      "searchTerms": [
+        "çam ağacı",
+        "pine tree",
+        "kırmızı meyveler",
+        "red berries",
+        "yılbaşı",
+        "new year",
+        "deniz",
+        "sea",
+        "Murathan Mungan"
+      ],
+      "uncertainty": []
+    },
+    "2026-w36": {
+      "weekId": "2026-w36",
+      "image": "scans/2026-36.png",
+      "thumb": "thumbs/2026-36.png",
+      "analyzedAt": "2026-09-13T12:38:41.141Z",
+      "reviewed": false,
+      "summary": "Eylül ayı için bir takvim sayfası, el çizimleri ve el yazısı içeren bir ajanda taramasıdır.",
+      "objects": [
+        "gezegen",
+        "bulutlar",
+        "uçurumun kıyısı"
+      ],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "Sondördün Cuma/ Friday",
+        "İletişim ve söylem alanımızı genişletmek için inşa ettığımız yapıların sistematiğe ve otomatik biçimlerde bize karşı kullandığı son derece kararlı zamanlardan g"
+      ],
+      "colors": [
+        "mavi",
+        "mor",
+        "yeşil",
+        "turuncu"
+      ],
+      "visualStyle": [
+        "suluboya",
+        "el çizimi",
+        "doodle"
+      ],
+      "moods": [
+        "düşünceli",
+        "temkinli",
+        "endişeli",
+        "hayalperest",
+        "umutlu"
+      ],
+      "themes": [
+        "takvim",
+        "el yazısı",
+        "doodle",
+        "ay",
+        "gün"
+      ],
+      "searchTerms": [
+        "Pazar Sunday",
+        "Sondardan Cuma Friday",
+        "Cuma Saturday",
+        "İletişim ve söylem alanımızı genişletmek için inşa ettığımız yapıların sistematiğe ve otomatik biçimlerde bize karşı kullandığı son derece kararlı zamanlardan g"
+      ],
+      "uncertainty": []
+    },
+    "2026-w37": {
+      "weekId": "2026-w37",
+      "image": "scans/2026-37.png",
+      "thumb": "thumbs/2026-37.png",
+      "analyzedAt": "2026-09-13T12:39:02.524Z",
+      "reviewed": false,
+      "summary": "Eylül ayı için bir takvim sayfası, el çizimleri ve el yazılarıyla doldurulmuş, haftalık bir ajanda taramasıdır.",
+      "objects": [
+        "yabanmersini",
+        "günbatımı",
+        "orman",
+        "sandık",
+        "hazine",
+        "şehir"
+      ],
+      "animals": [],
+      "people": [],
+      "visibleText": [],
+      "colors": [
+        "mavi",
+        "yeşil",
+        "kırmızı",
+        "sarı",
+        "koyu mavi"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "suluboya"
+      ],
+      "moods": [
+        "neşeli",
+        "hüzün"
+      ],
+      "themes": [
+        "takvim",
+        "el yazısı",
+        "doodle",
+        "ay",
+        "gün"
+      ],
+      "searchTerms": [
+        "Pazartesi Monday",
+        "Salı Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cuma Friday",
+        "Cumartesi Saturday",
+        "Pazar Sunday"
+      ],
+      "uncertainty": []
+    },
+    "2026-w38": {
+      "weekId": "2026-w38",
+      "image": "scans/2026-38.png",
+      "thumb": "thumbs/2026-38.png",
+      "analyzedAt": "2026-10-06T08:56:11.356Z",
+      "reviewed": false,
+      "summary": "Eylül ayı için bir takvim sayfası, el çizimleri ve metinlerle doldurulmuş, doğal manzaralar ve günlük yaşam anları temsil ediyor.",
+      "objects": [
+        "deniz",
+        "kum",
+        "kumda yapılmış kaya"
+      ],
+      "animals": [
+        "kedi"
+      ],
+      "people": [
+        "insan"
+      ],
+      "visibleText": [],
+      "colors": [
+        "yeşil",
+        "kırmızı",
+        "mavi",
+        "sarı",
+        "koyu gri"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "el yazısı",
+        "kalem çizimi",
+        "sayfa"
+      ],
+      "moods": [],
+      "themes": [
+        "doğal manzara",
+        "günlük yaşam",
+        "el çizimi",
+        "el yazısı",
+        "kalem çizimi",
+        "sayfa"
+      ],
+      "searchTerms": [],
+      "uncertainty": []
+    },
+    "2026-w39": {
+      "weekId": "2026-w39",
+      "image": "scans/2026-39.png",
+      "thumb": "thumbs/2026-39.png",
+      "analyzedAt": "2026-10-06T08:56:31.933Z",
+      "reviewed": false,
+      "summary": "Eylül ayı için bir takvim sayfası, el çizimleri ve metinlerle dolu, 21-27 tarihleri kapsayan bir haftalık planlama.",
+      "objects": [],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "Pazartesi Monday",
+        "Salı Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cuma Friday",
+        "Cumartesi Saturday",
+        "Pazar Sunday"
+      ],
+      "colors": [
+        "mavi",
+        "kırmızı",
+        "yeşil",
+        "mor"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "renkli",
+        "doodle"
+      ],
+      "moods": [],
+      "themes": [],
+      "searchTerms": [
+        "Pazartesi Monday",
+        "Salı Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cuma Friday",
+        "Cumartesi Saturday",
+        "Pazar Sunday"
+      ],
+      "uncertainty": []
+    },
+    "2026-w40": {
+      "weekId": "2026-w40",
+      "image": "scans/2026-40.png",
+      "thumb": "thumbs/2026-40.png",
+      "analyzedAt": "2026-10-06T08:57:03.810Z",
+      "reviewed": false,
+      "summary": "Açıkça görünen el çizimli ve el yazısı içeren bir takvim sayfası, Eylül ve Ekim aylarının haftalık planını gösteriyor.",
+      "objects": [],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "Dünya Bilgi Edinme ve Bireysel Silahsızlaşma Günü (28) - Daha fazla metin var ama okunamıyor (uncertainty)."
+      ],
+      "colors": [
+        "kırmızı",
+        "mavi",
+        "sarı",
+        "yeşil",
+        "koyu gri"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "renkli",
+        "doodle",
+        "kalem çizimi"
+      ],
+      "moods": [],
+      "themes": [
+        "takvim",
+        "doodle",
+        "el yazısı",
+        "dikkatli",
+        "dönüşüm"
+      ],
+      "searchTerms": [],
+      "uncertainty": [
+        "Dünya Bilgi Edinme ve Bireysel Silahsızlaşma Günü (28) - Daha fazla metin var ama okunamıyor",
+        "Dünya Çeviri Günü (30) - Daha fazla metin var ama okunamıyor",
+        "Dünya Hayvanları Koruma Günü (4) - Daha fazla metin var ama okunamıyor"
+      ]
+    },
+    "2026-w41": {
+      "weekId": "2026-w41",
+      "image": "scans/2026-41.png",
+      "thumb": "thumbs/2026-41.png",
+      "analyzedAt": "2026-10-19T09:50:59.768Z",
+      "reviewed": false,
+      "summary": "Ekim ayı için haftalık bir takvim sayfası, el çizimleri ve metinlerle doldurulmuş, günlerin her biri için farklı manzaralar ve alıntılar içeriyor.",
+      "objects": [
+        "deniz",
+        "dağ",
+        "ağaç",
+        "kutu"
+      ],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "Yaprak Dökümü Fırtınası"
+      ],
+      "colors": [
+        "kırmızı",
+        "mavi",
+        "sarı",
+        "yeşil",
+        "pembe"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "su boyası",
+        "sade çizim"
+      ],
+      "moods": [
+        "düşünceli",
+        "durgun"
+      ],
+      "themes": [
+        "doğal manzaralar",
+        "düşünce",
+        "toplumsal sorunlar"
+      ],
+      "searchTerms": [
+        "Pazartesi Monday",
+        "Salı Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cumartesi Saturday",
+        "Pazar Sunday",
+        "Yaprak Dökümü Fırtınası"
+      ],
+      "uncertainty": []
+    },
+    "2026-w42": {
+      "weekId": "2026-w42",
+      "image": "scans/2026-42.png",
+      "thumb": "thumbs/2026-42.png",
+      "analyzedAt": "2026-10-19T09:51:23.147Z",
+      "reviewed": false,
+      "summary": "Ekim ayı için haftalık bir takvim sayfası, çocuk el çizimleri ve el yazıları içeren bir ajanda taramasıdır.",
+      "objects": [],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "12, 13, 14, 15, 17, 18"
+      ],
+      "colors": [
+        "kırmızı",
+        "mavi",
+        "mor",
+        "sarı",
+        "yeşil"
+      ],
+      "visualStyle": [
+        "el çizimi",
+        "renkli kalem",
+        "doodle"
+      ],
+      "moods": [],
+      "themes": [
+        "eğlence",
+        "öğrenme",
+        "yazılı içerik"
+      ],
+      "searchTerms": [
+        "Pazartesi Monday",
+        "Salı Tuesday",
+        "Çarşamba Wednesday",
+        "Perşembe Thursday",
+        "Cumartesi Saturday",
+        "Pazar Sunday",
+        "12, 13, 14, 15, 17, 18"
+      ],
+      "uncertainty": []
+    },
+    "2026-w43": {
+      "weekId": "2026-w43",
+      "image": "scans/2026-43.png",
+      "thumb": "thumbs/2026-43.png",
+      "analyzedAt": "2026-10-26T08:32:21.413Z",
+      "reviewed": true,
+      "summary": "Ekim ayı için suluboya meyve dilimleri (mandalina, portakal, karpuz, kivi, armut, elma) ve koşan insan çizimi içeren haftalık ajanda sayfası.",
+      "objects": [
+        "meyve",
+        "mandalina",
+        "portakal",
+        "karpuz",
+        "kivi",
+        "armut",
+        "elma",
+        "üzüm"
+      ],
+      "animals": [],
+      "people": [
+        "koşan insan"
+      ],
+      "visibleText": [
+        "Bağbozumu Fırtınası",
+        "Kendini ifade etmeyi iletişimle karıştırmak tehlikelidir. — Ursula K. Le Guin",
+        "Bilen konuşmaz. Konuşan bilmez. — Lao Tzu",
+        "Roberto Juarroz"
+      ],
+      "colors": [
+        "turuncu",
+        "kırmızı",
+        "yeşil",
+        "sarı",
+        "pembe"
+      ],
+      "visualStyle": [
+        "suluboya",
+        "el çizimi"
+      ],
+      "moods": [
+        "canlı",
+        "renkli",
+        "dengeli"
+      ],
+      "themes": [
+        "meyve",
+        "iletişim",
+        "sonbahar"
+      ],
+      "searchTerms": [
+        "meyve",
+        "fruit",
+        "portakal",
+        "orange",
+        "mandalina",
+        "tangerine",
+        "karpuz",
+        "watermelon",
+        "kivi",
+        "kiwi",
+        "armut",
+        "pear",
+        "elma",
+        "apple",
+        "koşan insan",
+        "running",
+        "Ursula K. Le Guin",
+        "Lao Tzu",
+        "Roberto Juarroz"
+      ],
+      "uncertainty": []
+    },
+    "2026-w44": {
+      "weekId": "2026-w44",
+      "image": "scans/2026-44.png",
+      "thumb": "thumbs/2026-44.png",
+      "analyzedAt": "2026-11-02T15:03:00.000Z",
+      "reviewed": true,
+      "summary": "Ekim ve Kasım geçiş haftası için gözlü dev kaya/mağara yaratığı, önünde sepetli Kırmızı Başlıklı Kız figürü ve Cumhuriyet Bayramı ay-yıldız çizimi içeren ajanda sayfası.",
+      "objects": [
+        "mağara",
+        "kaya",
+        "canavar",
+        "göz",
+        "kırmızı pelerin",
+        "sepet",
+        "ay yıldız",
+        "bayrak"
+      ],
+      "animals": [],
+      "people": [
+        "Kırmızı Başlıklı Kız",
+        "kırmızı pelerinli kız",
+        "koşan insan"
+      ],
+      "visibleText": [
+        "Gerçek iletişimin dilin bittiği ya da henüz başlamadığı yerde kurulur. — Tahsin Yücel",
+        "Balık Fırtınası",
+        "Cumhuriyet Bayramı",
+        "Yazmak aynı zamanda konuşmamaktır. Susmaktır. Ses çıkarmadan ulumaktır. — Marguerite Duras",
+        "Murathan Mungan, Yaz Geçer"
+      ],
+      "colors": [
+        "gri",
+        "kahverengi",
+        "kırmızı",
+        "mavi",
+        "sarı"
+      ],
+      "visualStyle": [
+        "suluboya",
+        "el çizimi"
+      ],
+      "moods": [
+        "gizemli",
+        "masalsı",
+        "düşünceli"
+      ],
+      "themes": [
+        "masal",
+        "iletişim",
+        "yazmak",
+        "sessizlik",
+        "Cumhuriyet Bayramı"
+      ],
+      "searchTerms": [
+        "mağara",
+        "cave",
+        "kaya",
+        "rock",
+        "canavar",
+        "monster",
+        "göz",
+        "eye",
+        "Kırmızı Başlıklı Kız",
+        "Little Red Riding Hood",
+        "kırmızı pelerin",
+        "red cloak",
+        "sepet",
+        "basket",
+        "Cumhuriyet Bayramı",
+        "ay yıldız",
+        "Tahsin Yücel",
+        "Marguerite Duras",
+        "Murathan Mungan"
+      ],
+      "uncertainty": []
+    },
+    "2025-w53": {
+      "weekId": "2025-w53",
+      "image": "scans/2025-53.png",
+      "thumb": "thumbs/2025-53.png",
+      "analyzedAt": "2026-10-26T08:32:44.499Z",
+      "reviewed": false,
+      "summary": "Aralık ve Ocak ayı için açılmış bir takvim sayfası, el çizimli bir manzara ve el yazısı içeren bir ajanda.",
+      "objects": [],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "Çocuklar ana babanın çocukluk yaralarını saramaz, açan onlar değişir çünkü. — Anonim",
+        "Aile albümlerinin bir özelligi daha var. Zaman geçtikçe, albümün içindeki görüntülerin iletisi de değişir. Resim çekildiğinde bunun sakacı amcanın son ziyareti老",
+        "— John Berger, Yedinci Adam"
+      ],
+      "colors": [],
+      "visualStyle": [],
+      "moods": [],
+      "themes": [],
+      "searchTerms": [
+        "Çocuklar ana babanın çocukluk yaralarını saramaz, açan onlar değişir çünkü. — Anonim",
+        "Aile albümlerinin bir özelligi daha var. Zaman geçtikçe, albümün içindeki görüntülerin iletisi de değişir. Resim çekildiğinde bunun sakacı amcanın son ziyareti老",
+        "— John Berger, Yedinci Adam"
+      ],
+      "uncertainty": []
+    },
+    "2021-w01": {
+      "weekId": "2021-w01",
+      "image": "scans/2021-1.png",
+      "thumb": "thumbs/2021-01.png",
+      "analyzedAt": "2026-10-26T08:33:09.674Z",
+      "reviewed": true,
+      "summary": "Yeni yıl haftası için çiçekler, renk paleti, Vefa boza şişesi, bardak ve yüzüstü yatan insan çizimi içeren ajanda sayfası.",
+      "objects": [
+        "çiçek",
+        "bitki",
+        "boza şişesi",
+        "şişe",
+        "bardak",
+        "renk paleti"
+      ],
+      "animals": [],
+      "people": [
+        "yatan insan"
+      ],
+      "visibleText": [
+        "Efendiler! Bugün yepyeni bir yıla başlıyoruz!",
+        "BOZA VEFA",
+        "Hayat umutsuzluktan umut yaratmaktır. — Yaşar Kemal",
+        "Ambrose Bierce, Şeytanın Sözlüğü"
+      ],
+      "colors": [
+        "pembe",
+        "mavi",
+        "yeşil",
+        "sarı",
+        "turuncu"
+      ],
+      "visualStyle": [
+        "suluboya",
+        "el çizimi",
+        "el yazısı"
+      ],
+      "moods": [
+        "umutlu",
+        "neşeli",
+        "yorgun"
+      ],
+      "themes": [
+        "yeni yıl",
+        "umut",
+        "hayat",
+        "dinlenme"
+      ],
+      "searchTerms": [
+        "çiçek",
+        "flower",
+        "boza",
+        "Vefa",
+        "şişe",
+        "bottle",
+        "bardak",
+        "glass",
+        "yeni yıl",
+        "new year",
+        "yatan insan",
+        "sleeping",
+        "resting",
+        "Yaşar Kemal",
+        "Ambrose Bierce"
+      ],
+      "uncertainty": []
+    },
+    "2021-w03": {
+      "weekId": "2021-w03",
+      "image": "scans/2021-3.png",
+      "thumb": "thumbs/2021-03.png",
+      "analyzedAt": "2026-10-26T08:33:33.448Z",
+      "reviewed": true,
+      "summary": "Ocak ayı için deniz üzerinde güneş, dalgalı denizde adalar ve yağmur altında ağaç çizimleri içeren haftalık ajanda sayfası.",
+      "objects": [
+        "deniz",
+        "güneş",
+        "ada",
+        "dalga",
+        "ağaç",
+        "yağmur",
+        "bulut"
+      ],
+      "animals": [],
+      "people": [],
+      "visibleText": [
+        "Hayat, ayrıntılı olarak bakmaya şartlandırıldığımız için göz ardı ettiğimiz yerlerde aslında. — Engin Geçtan",
+        "Karakoncolos Fırtınası",
+        "En acayip gücümüzdür, Kahramanlıktır yaşamak — Nâzım Hikmet",
+        "Bilge Karasu, Göçmüş Kediler Bahçesi"
+      ],
+      "colors": [
+        "mavi",
+        "sarı",
+        "gri",
+        "yeşil",
+        "turuncu",
+        "pembe"
+      ],
+      "visualStyle": [
+        "suluboya",
+        "el çizimi"
+      ],
+      "moods": [
+        "düşünceli",
+        "dingin",
+        "melankolik"
+      ],
+      "themes": [
+        "deniz",
+        "doğa",
+        "yaşamak",
+        "fırtına"
+      ],
+      "searchTerms": [
+        "deniz",
+        "sea",
+        "güneş",
+        "sun",
+        "ada",
+        "island",
+        "ağaç",
+        "tree",
+        "yağmur",
+        "rain",
+        "dalga",
+        "wave",
+        "Engin Geçtan",
+        "Nâzım Hikmet",
+        "Bilge Karasu"
+      ],
+      "uncertainty": []
+    },
+    "2021-w04": {
+      "weekId": "2021-w04",
+      "image": "scans/2021-4.png",
+      "thumb": "thumbs/2021-04.png",
+      "analyzedAt": "2026-10-26T08:33:51.916Z",
+      "reviewed": true,
+      "summary": "Ocak ayı için altı kişilik çevrimiçi görüntülü görüşme ekranı karakalem çizimi içeren haftalık ajanda sayfası.",
+      "objects": [
+        "ekran",
+        "bilgisayar ekranı",
+        "görüntülü görüşme",
+        "pencere"
+      ],
+      "animals": [],
+      "people": [
+        "insan yüzleri",
+        "görüntülü konuşan insanlar"
+      ],
+      "visibleText": [
+        "Hayat güzel. Ölüm huzurlu. Sorun birinden diğerine geçmekte. — Isaac Asimov",
+        "Hayat ıstıraptan çıkar, ölümse huzur ve neşeden. — Mengzi",
+        "E. M. Cioran, Zamana Düşüş"
+      ],
+      "colors": [
+        "siyah",
+        "gri",
+        "turuncu"
+      ],
+      "visualStyle": [
+        "karakalem",
+        "el çizimi"
+      ],
+      "moods": [
+        "düşünceli",
+        "uzak",
+        "izole"
+      ],
+      "themes": [
+        "uzaktan iletişim",
+        "pandemi",
+        "yaşam ve ölüm"
+      ],
+      "searchTerms": [
+        "görüntülü görüşme",
+        "video call",
+        "zoom",
+        "toplantı",
+        "meeting",
+        "ekran",
+        "screen",
+        "insanlar",
+        "people",
+        "karakalem",
+        "pencil drawing",
+        "Isaac Asimov",
+        "E. M. Cioran"
+      ],
+      "uncertainty": []
+    },
+    "2021-w07": {
+      "weekId": "2021-w07",
+      "image": "scans/2021-7.png",
+      "thumb": "thumbs/2021-07.png",
+      "analyzedAt": "2026-10-26T08:34:10.950Z",
+      "reviewed": true,
+      "summary": "Şubat ayı için kaktüslü çöl manzarası ve konuşma balonlu yeşil saçlı kadın çizimi içeren haftalık ajanda sayfası.",
+      "objects": [
+        "kaktüs",
+        "çöl",
+        "konuşma balonu"
+      ],
+      "animals": [],
+      "people": [
+        "yeşil saçlı kadın",
+        "kadın"
+      ],
+      "visibleText": [
+        "Yaşadığım falan yok, sadece ölmezden geliyorum. — Kamyon arkası",
+        "Ölümden korkup da sonunu sayan / Ölür gider yâr koynuna giremez. — Karacaoğlan",
+        "John Berger, Ve Yüzlerimiz, Kalbim, Fotoğraflar Kadar Kısa"
+      ],
+      "colors": [
+        "yeşil",
+        "sarı",
+        "turuncu",
+        "pembe",
+        "mavi"
+      ],
+      "visualStyle": [
+        "suluboya",
+        "el çizimi",
+        "el yazısı"
+      ],
+      "moods": [
+        "ironik",
+        "düşünceli",
+        "mizahi"
+      ],
+      "themes": [
+        "yaşam",
+        "ölüm",
+        "aşk",
+        "mizah"
+      ],
+      "searchTerms": [
+        "kaktüs",
+        "cactus",
+        "çöl",
+        "desert",
+        "kadın",
+        "woman",
+        "yeşil saç",
+        "green hair",
+        "konuşma balonu",
+        "speech bubble",
+        "Karacaoğlan",
+        "John Berger"
+      ],
+      "uncertainty": []
+    },
+    "2026-w45": {
+      "weekId": "2026-w45",
+      "image": "scans/2026-45.png",
+      "thumb": "thumbs/2026-45.png",
+      "analyzedAt": "2026-11-09T08:33:40.503Z",
+      "reviewed": true,
+      "summary": "Kasım haftasının iki sayfasına yayılan suluboya manzara: solda sarı yapraklı büyük bir sonbahar ağacı, sağda yağmur bulutunun altında kırmızı şemsiyeyle sırtı dönük duran kırmızı giysili bir figür. Sol sayfada Selçuk Demirel'in Metis Ajanda 2026 için çizdiği baskılı seriden kılıç savuran iki siyah siluet ve iletişim, internet ve kapitalizm üzerine John Berger ile Jonathan Crary alıntıları var.",
+      "objects": [
+        "sonbahar ağacı",
+        "ağaç",
+        "sarı yapraklar",
+        "kırmızı şemsiye",
+        "şemsiye",
+        "yağmur",
+        "yağmur bulutu",
+        "bulutlu gökyüzü",
+        "patika",
+        "çimen",
+        "kırmızı giysi",
+        "kılıç"
+      ],
+      "animals": [],
+      "people": [
+        "kırmızı şemsiyeli figür",
+        "kırmızı giysili figür",
+        "sırtı dönük figür",
+        "kılıç savuran iki figür",
+        "iki siyah siluet"
+      ],
+      "visibleText": [
+        "Kuş Geçimi Fırtınası",
+        "İklim Adaleti İçin Küresel Eylem Günü",
+        "Günümüzün iletişim tufanında kelime oyunları ve çalım satmalar sayısız başka hayatın gerçeğine el koyuyor, yaşamasını engelliyor. — John Berger",
+        "İnsan iletişimi küresel şirketlerin, ordunun, istihbarat kurumlarının, suç kartellerinin, seks ticareti yapanların ve her türden sapkın işlemcinin önceliklerine göre ayarlanmış bir sisteme yerleştirildiğinde, kimseden hiçbir şeyin hesabı sorulamaz. Geç kapitalizmin düzenlenmemiş serbest piyasasının ta kendisidir bu. İnternet kompleksi baştan uca, iflah olmaz derecede “karanlık”tır, çünkü o nihilist “her şey mubahtır” düsturu yeniden şekillendirilip daha da yoz “parasallaştırılabildiği ve talep halinde ulaşılabildiği sürece her şey mubahtır” haline getirilmiştir. — Jonathan Crary, Yeryüzü Yakılıp Yıkılırken"
+      ],
+      "colors": [
+        "sarı",
+        "altın sarısı",
+        "turuncu",
+        "mavi",
+        "kırmızı",
+        "yeşil",
+        "kahverengi",
+        "mor",
+        "pembe",
+        "gri",
+        "siyah"
+      ],
+      "visualStyle": [
+        "suluboya",
+        "el çizimi",
+        "manzara",
+        "çift sayfaya yayılan çizim",
+        "siluet",
+        "baskılı illüstrasyon"
+      ],
+      "moods": [
+        "melankolik",
+        "sakin",
+        "düşünceli",
+        "yalnız"
+      ],
+      "themes": [
+        "sonbahar",
+        "yağmur",
+        "doğa",
+        "yalnızlık",
+        "iletişim",
+        "internet",
+        "dijital çağın etkileri",
+        "kapitalizm eleştirisi",
+        "iklim adaleti"
+      ],
+      "searchTerms": [
+        "sonbahar",
+        "autumn",
+        "ağaç",
+        "tree",
+        "sarı yapraklar",
+        "yellow leaves",
+        "yağmur",
+        "rain",
+        "kırmızı şemsiye",
+        "red umbrella",
+        "şemsiye",
+        "umbrella",
+        "bulut",
+        "cloud",
+        "siluet",
+        "silhouette",
+        "düello",
+        "duel",
+        "suluboya",
+        "watercolor",
+        "Kuş Geçimi Fırtınası",
+        "iklim adaleti",
+        "John Berger",
+        "Jonathan Crary",
+        "Yeryüzü Yakılıp Yıkılırken",
+        "geç kapitalizm",
+        "internet",
+        "kılıç",
+        "sword",
+        "kılıç savuran figürler",
+        "sword fight",
+        "Selçuk Demirel"
+      ],
+      "uncertainty": [
+        "Crary alıntısının çizimin altında kalan birkaç sözcüğü bağlamdan tamamlandı."
+      ]
     }
   }
 }
