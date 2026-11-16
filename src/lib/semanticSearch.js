@@ -124,7 +124,7 @@ function scoreIndexEntry(entry, query) {
 }
 
 /**
- * Ollama'nın önceden ürettiği statik JSON indeksinde anında arama.
+ * Önceden hazırlanmış statik JSON indeksinde anında arama.
  * Canlı sitede model veya sunucu gerektirmez.
  */
 export function searchIndexWeeks(query, { limit = INDEX_LIMIT } = {}) {

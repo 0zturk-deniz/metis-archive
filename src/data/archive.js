@@ -460,6 +460,16 @@ export const years = [
         "image": "display/2026-45.png",
         "source": "scans/2026-45.png",
         "thumb": "thumbs/2026-45.png"
+      },
+      {
+        "id": "2026-w46",
+        "year": 2026,
+        "weekNumber": 46,
+        "label": "9 — 15 Kas",
+        "range": "9 — 15 Kasım 2026",
+        "image": "display/2026-46.png",
+        "source": "scans/2026-46.png",
+        "thumb": "thumbs/2026-46.png"
       }
     ]
   },

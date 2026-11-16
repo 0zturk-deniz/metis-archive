@@ -5,7 +5,6 @@
   "type": "module",
   "scripts": {
     "scan": "node scripts/build-archive.mjs",
-    "analyze": "node scripts/analyze-scans.mjs",
     "predev": "npm run scan",
     "dev": "vite",
     "prebuild": "npm run scan",

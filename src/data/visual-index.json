@@ -1,6 +1,6 @@
 {
   "model": "qwen3-vl:4b-instruct",
-  "generatedAt": "2026-11-09T08:33:40.512Z",
+  "generatedAt": "2026-11-16T09:44:42.001Z",
   "entries": {
     "2025-w03": {
       "weekId": "2025-w03",
@@ -6340,6 +6340,109 @@
       ],
       "uncertainty": [
         "Crary alıntısının çizimin altında kalan birkaç sözcüğü bağlamdan tamamlandı."
+      ]
+    },
+    "2026-w46": {
+      "weekId": "2026-w46",
+      "image": "scans/2026-46.png",
+      "thumb": "thumbs/2026-46.png",
+      "analyzedAt": "2026-11-16T09:44:41.998Z",
+      "reviewed": true,
+      "summary": "Kasım haftasının iki sayfasına yayılan iki suluboya portre: solda kâküllü kısa saçlı, kulaklık takmış, sarı hırka ve mantar desenli \"Bloom & Grow\" tişört giymiş bir figür; sağda uzun kıvırcık kahverengi saçlı, siyah ceketli, altın kolyeli, gülümseyerek yana bakan bir kadın. İkisinin arasında turuncu-pembe bir solucan/yılan figürü uzanıyor; arka planda toplu taşıma içi ve pencereler seçiliyor.",
+      "objects": [
+        "portre",
+        "kulaklık",
+        "kablosuz kulaklık",
+        "hırka",
+        "tişört",
+        "mantar deseni",
+        "siyah ceket",
+        "kolye",
+        "solucan",
+        "yılan",
+        "otobüs içi",
+        "pencere"
+      ],
+      "animals": [
+      ],
+      "people": [
+        "kısa saçlı figür",
+        "kâküllü figür",
+        "kıvırcık saçlı kadın",
+        "gülümseyen kadın",
+        "iki portre"
+      ],
+      "visibleText": [
+        "Kasım November",
+        "Bloom & Grow",
+        "Atatürk'ü Anma Günü",
+        "Lodos Fırtınası",
+        "Dünya Hapisteki Yazarlar Günü"
+      ],
+      "colors": [
+        "turuncu",
+        "pembe",
+        "sarı",
+        "kahverengi",
+        "siyah",
+        "gri",
+        "kırmızı"
+      ],
+      "visualStyle": [
+        "suluboya",
+        "portre",
+        "el çizimi",
+        "renkli kalem"
+      ],
+      "moods": [
+        "sakin",
+        "düşünceli",
+        "samimi",
+        "sıcak"
+      ],
+      "themes": [
+        "portre",
+        "yolculuk",
+        "toplu taşıma",
+        "arkadaşlık",
+        "gündelik hayat"
+      ],
+      "searchTerms": [
+        "portre",
+        "portrait",
+        "yüz",
+        "face",
+        "kadın",
+        "woman",
+        "kıvırcık saç",
+        "curly hair",
+        "kısa saç",
+        "short hair",
+        "kulaklık",
+        "earbuds",
+        "airpods",
+        "solucan",
+        "worm",
+        "yılan",
+        "snake",
+        "mantar",
+        "mushroom",
+        "Bloom & Grow",
+        "otobüs",
+        "bus",
+        "toplu taşıma",
+        "public transport",
+        "hırka",
+        "cardigan",
+        "suluboya",
+        "watercolor",
+        "Lodos Fırtınası",
+        "Atatürk'ü Anma Günü",
+        "Dünya Hapisteki Yazarlar Günü"
+      ],
+      "uncertainty": [
+        
+        
       ]
     }
   }

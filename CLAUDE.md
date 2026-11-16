@@ -12,14 +12,13 @@ React 19 + Vite 8, düz JavaScript (TypeScript yok). Lint: **Oxlint** (`.oxlintr
 npm run dev       # önce otomatik olarak `npm run scan` çalışır
 npm run build     # önce otomatik olarak `npm run scan` çalışır
 npm run scan      # scripts/build-archive.mjs: katalog, display ve thumbnail üretimi
-npm run analyze -- --all   # yerel Ollama (qwen3-vl:4b-instruct) ile görsel indeks; sadece yerelde
 npm run lint      # oxlint
 ```
 
 ## Kurallar
 
 - **`src/data/archive.js` otomatik üretilir, elle düzenleme.** Değişiklik gerekiyorsa `scripts/build-archive.mjs`'i değiştir.
-- `src/data/visual-index.json` büyük bir dosya; tamamını okuma, gerekirse `grep`/`jq` ile ilgili kayda bak. `"reviewed": true` olan kayıtlar elle kontrol edilmiştir, bunları ezme.
+- `src/data/visual-index.json` büyük bir dosya; tamamını okuma, gerekirse `grep`/`jq` ile ilgili kayda bak. `"reviewed": true` olan kayıtlar elle kontrol edilmiştir, bunları ezme. Ollama projeden çıkarıldı: yeni haftanın kaydını Claude taramaya bakarak doğrudan yazar, kullanıcı kontrol edip `reviewed: true` yapar.
 - Tarama adlandırma kuralı tek metadata kaynağı: `2025.png` yıl kapağı, `2025-7.png` 2025'in 7. haftası (ISO-8601 haftaları).
 - Taramalar şeffaf PNG; kâğıt dokusu `--scan-bg` / `--scan-bg-tile` CSS değişkenleriyle arkaya konur. Tema değişince sadece bu dokular değişir.
 - `public/scans/`, `public/display/`, `public/thumbs/`, `public/bg-*.jpg`, `.originals/` git'e girmez.

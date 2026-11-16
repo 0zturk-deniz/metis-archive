@@ -605,7 +605,7 @@ function App() {
         </span>
         <span className="footer__credit">{t.footer.credit}</span>
         <span className="footer__stack" lang="en">
-          React · Vite · Transformers.js · Jina CLIP · Ollama
+          React · Vite · Transformers.js · Jina CLIP
         </span>
       </footer>
 
